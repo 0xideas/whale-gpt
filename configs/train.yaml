@@ -8,31 +8,31 @@ target_columns: [itemValue]
 target_column_types:
   itemValue: real
 
-seq_length: 8
+seq_length: 25
 inference_batch_size: 10
 
 export_onnx: true
 
 model_spec:
-  d_model: 10
-  nhead: 2
-  d_hid: 10
-  nlayers: 2
+  d_model: 64
+  nhead: 4
+  d_hid: 64
+  nlayers: 4
 training_spec:
   device: cpu
-  epochs: 3
-  iter_save: 1
+  epochs: 1000
+  iter_save: 100
   batch_size: 20
-  log_interval: 200
-  lr: 0.003
-  accumulation_steps: null
-  dropout: 0.3
+  log_interval: 10
+  lr: 0.0008
+  accumulation_steps: 1
+  dropout: 0.2
   criterion:
-    itemValue: MSELoss
+    Precipitation: MSELoss
   optimizer:
-    name: Adam
+    name: AdamW
   scheduler:
     name: StepLR
-    step_size: 1.0
+    step_size: 100
     gamma: 0.99
   continue_training: false
