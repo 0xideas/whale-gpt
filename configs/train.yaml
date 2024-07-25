@@ -1,0 +1,38 @@
+project_path: .
+model_name: default
+read_format: parquet
+ddconfig_path: PLEASE FILL
+
+selected_columns: null
+target_columns: [itemValue]
+target_column_types:
+  itemValue: real
+
+seq_length: 8
+inference_batch_size: 10
+
+export_onnx: true
+
+model_spec:
+  d_model: 10
+  nhead: 2
+  d_hid: 10
+  nlayers: 2
+training_spec:
+  device: cpu
+  epochs: 3
+  iter_save: 1
+  batch_size: 20
+  log_interval: 200
+  lr: 0.003
+  accumulation_steps: null
+  dropout: 0.3
+  criterion:
+    itemValue: MSELoss
+  optimizer:
+    name: Adam
+  scheduler:
+    name: StepLR
+    step_size: 1.0
+    gamma: 0.99
+  continue_training: false

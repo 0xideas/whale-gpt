@@ -1,0 +1,13 @@
+project_path: .
+data_path: PLEASE FILL
+read_format: csv
+write_format: parquet
+selected_columns: null
+target_columns: [itemValue]
+return_targets: true
+
+group_proportions:
+- 0.8
+- 0.2
+seq_length: 8
+max_rows: null

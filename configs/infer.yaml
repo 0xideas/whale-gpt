@@ -1,0 +1,17 @@
+project_path: .
+ddconfig_path: PLEASE FILL
+model_path: PLEASE FILL
+data_path: PLEASE FILL
+
+selected_columns: null
+target_columns: [itemValue]
+target_column_types:
+  itemValue: real
+
+output_probabilities: false
+map_to_id: false
+device: cpu
+seq_length: 8
+inference_batch_size: 10
+
+autoregression: true
