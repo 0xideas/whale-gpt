@@ -3,10 +3,10 @@ model_name: default
 read_format: parquet
 ddconfig_path: PLEASE FILL
 
-selected_columns: null
-target_columns: [itemValue]
-target_column_types:
-  itemValue: real
+selected_columns: [EXAMPLE_INPUT_COLUMN_NAME] # should include all target column, can include additional columns
+target_columns: [EXAMPLE_TARGET_COLUMN_NAME]
+target_column_types: # 'criterion' in training_spec must also be adapted
+  EXAMPLE_TARGET_COLUMN_NAME: real
 
 seq_length: 48
 inference_batch_size: 10
@@ -28,7 +28,7 @@ training_spec:
   accumulation_steps: 1
   dropout: 0.2
   criterion:
-    itemValue: MSELoss
+    EXAMPLE_COLUMN_NAME: MSELoss
   optimizer:
     name: AdamW
   scheduler:
