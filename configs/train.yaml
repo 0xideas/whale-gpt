@@ -28,7 +28,7 @@ training_spec:
   accumulation_steps: 1
   dropout: 0.2
   criterion:
-    EXAMPLE_COLUMN_NAME: MSELoss
+    EXAMPLE_TARGET_COLUMN_NAME: MSELoss
   optimizer:
     name: AdamW
   scheduler:
