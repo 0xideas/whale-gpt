@@ -3,3 +3,4 @@ logs/
 checkpoints/
 outputs/
 data/
+.DS_Store
