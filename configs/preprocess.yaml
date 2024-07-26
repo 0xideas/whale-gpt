@@ -8,6 +8,7 @@ return_targets: true
 
 group_proportions:
 - 0.8
-- 0.2
-seq_length: 8
+- 0.1
+- 0.1
+seq_length: 48
 max_rows: null
