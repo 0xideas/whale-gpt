@@ -3,12 +3,11 @@ data_path: PLEASE FILL
 read_format: csv
 write_format: parquet
 selected_columns: [EXAMPLE_INPUT_COLUMN_NAME] # should include all target column, can include additional columns
-target_columns: [EXAMPLE_TARGET_COLUMN_NAME]
-return_targets: true
 
 group_proportions:
 - 0.8
 - 0.1
 - 0.1
 seq_length: 48
+seq_step_size: 1
 max_rows: null
