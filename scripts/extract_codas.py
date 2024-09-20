@@ -121,7 +121,6 @@ def expand_tree(tree, candidates, sequence, sequence_eval_index, sequence_start,
         sequence_length = min(len(sequence), coda_lengths[candidate[0]])
         sequence_end = sequence_start + sequence_length
         sequence_remainder = sequence[sequence_length:]
-        print(f"{sequence_remainder = }")
         child = TreeNode((*candidate, sequence_start, sequence_end, sequence[:sequence_length]))
         if len(sequence_remainder) > 1:
                 # tree, sequence, sequence_eval_index, means, coda_lengths, limit=3, threshold=0.1, only_equal=True
@@ -168,3 +167,27 @@ def get_coda_data(path="data/DominicaCodas.csv"):
     coda_lengths = {k:len(v) for k, v in means_trimmed.items()}
 
     return(means_trimmed, coda_lengths)
+
+if __name__ == "__main__":
+    dialogues = pd.read_csv("data/sperm-whale-dialogues.csv")
+    means, coda_lengths = get_coda_data()
+    results = {}
+    for i in range(dialogues.shape[0]):
+        sequence = np.array(list(dialogues[[f"ICI{i+1}" for i in range(28)]].values[i,:]))
+        sequence = sequence[sequence>0]
+        tree = get_coda_tree(TreeNode((None, 0.0, 0, 0)), list(sequence), 9, 0, means, {k:len(v) for k, v in means.items()}, limit=100)
+        results[i] = (tree.get_best_path(extra_value=0.05), sequence)
+
+    new_rows = []
+    for i, ((path_tuples, score), sequence) in results.items():
+        for id_, start, end in path_tuples:
+            assert end <= len(sequence), f"{path_tuples = } - {sequence = }"
+            delta = 9-(end-start)
+            assert (delta+1) >= 0, f"{path_tuples = } - {sequence = } - {delta = }"
+            buffer = ([0.0]*max(0, delta))
+            new_row = list(dialogues.iloc[i,:][["REC", "nClicks", "Duration", "Whale", "TsTo"]].values) + [i, id_] + list(sequence[start:end]) + buffer
+            assert isinstance(new_row, list)
+            new_rows = new_rows + [new_row]
+    new_data = pd.DataFrame(data=new_rows, columns = ["REC", "nClicks", "Duration", "Whale", "TsTo", "Vocalization", "Coda"] + [f"ICI{i+1}" for i in range(10)] )
+
+    new_data.to_csv("data/sperm-whale-dialogues-codas.csv")
