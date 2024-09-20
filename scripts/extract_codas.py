@@ -67,6 +67,26 @@ class TreeNode():
         newsum = coda_lengths[self.val[0]] + cumsum
         return(f"{newsum}\n" + "\n".join([(" " * indent) + child.length(coda_lengths, newsum, indent=indent+4) for child in self.children]))
 
+    def get_best_path(self, first_call=True, path=[], score=0.0, extra_value=0.05):
+        new_path = path + [(self.val[0], self.val[2], self.val[3])]
+        if self.val[0] == 100:
+            new_score = score + extra_value
+        else:
+            new_score = score + self.val[1] 
+        if len(self.children) == 0:
+            if not first_call:
+                return([(new_path, new_score)])
+            else:
+                return((new_path, new_score))
+        else:
+            children = [child.get_best_path(False, new_path, new_score, extra_value) for child in self.children]
+            children = [x for y in children for x in y]
+            children = sorted(children, key=lambda x: x[1])
+            if first_call:
+                return(children[0][0][1:], children[0][1])
+            else:
+                return(children)
+
 
 def coda_distances(sequence, means, only_equal=True):
     sequence_ = np.array(sequence)
@@ -122,12 +142,13 @@ def get_coda_tree(tree, sequence, sequence_eval_index, sequence_start, means, co
         if not 100 in [child.val[0] for child in tree.children]:
             candidates1 = get_candidates_sorted_filtered(sequence[1:sequence_eval_index+1], means, threshold, only_equal)
             if len(candidates1) > 0:
-                child1 = expand_tree(tree=TreeNode((100, 1.0, sequence_start, sequence_start+1)), candidates=candidates1, sequence=sequence, sequence_eval_index=sequence_eval_index, sequence_start=sequence_start+1, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
+                child1 = expand_tree(tree=TreeNode((100, 1.0, sequence_start, sequence_start+1)), candidates=candidates1, sequence=sequence[1:], sequence_eval_index=sequence_eval_index, sequence_start=sequence_start+1, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
                 tree.addChild(child1)
 
         if sequence_eval_index > 1:
             child2 = get_coda_tree(tree=tree, sequence=sequence, sequence_eval_index=sequence_eval_index-1, sequence_start=sequence_start, means=means,coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
     return(tree)
+
 
 
 def standardize(dataframe, len):
