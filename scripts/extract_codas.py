@@ -127,7 +127,9 @@ def expand_tree(tree, candidates, sequence, sequence_eval_index, sequence_start,
             child = get_coda_tree(tree=child, sequence=sequence_remainder, sequence_eval_index=sequence_eval_index, sequence_start=sequence_end, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
             tree.addChild(child)
         elif len(sequence_remainder) == 1:
-            child.addChild(TreeNode((100, 1.0, sequence_start, sequence_end+1)))
+            print(sequence_start)
+
+            child.addChild(TreeNode((100, 1.0, sequence_end, sequence_end+1)))
         tree.addChild(child)
         
     return(tree)
@@ -141,6 +143,7 @@ def get_coda_tree(tree, sequence, sequence_eval_index, sequence_start, means, co
         if not 100 in [child.val[0] for child in tree.children]:
             candidates1 = get_candidates_sorted_filtered(sequence[1:sequence_eval_index+1], means, threshold, only_equal)
             if len(candidates1) > 0:
+
                 child1 = expand_tree(tree=TreeNode((100, 1.0, sequence_start, sequence_start+1)), candidates=candidates1, sequence=sequence[1:], sequence_eval_index=sequence_eval_index, sequence_start=sequence_start+1, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
                 tree.addChild(child1)
 
@@ -183,11 +186,12 @@ if __name__ == "__main__":
         for id_, start, end in path_tuples:
             assert end <= len(sequence), f"{path_tuples = } - {sequence = }"
             delta = 9-(end-start)
-            assert (delta+1) >= 0, f"{path_tuples = } - {sequence = } - {delta = }"
+            assert (delta) >= 0 or i == 2674, f"{path_tuples = } - {sequence = } - {delta = }"
             buffer = ([0.0]*max(0, delta))
-            new_row = list(dialogues.iloc[i,:][["REC", "nClicks", "Duration", "Whale", "TsTo"]].values) + [i, id_] + list(sequence[start:end]) + buffer
+            new_row = list(dialogues.iloc[i,:][["REC", "nClicks", "Whale", "TsTo"]].values) + [i, id_, np.sum(sequence[start:end])] + list(sequence[start:end]) + buffer
             assert isinstance(new_row, list)
             new_rows = new_rows + [new_row]
-    new_data = pd.DataFrame(data=new_rows, columns = ["REC", "nClicks", "Duration", "Whale", "TsTo", "Vocalization", "Coda"] + [f"ICI{i+1}" for i in range(10)] )
+    new_data = pd.DataFrame(data=new_rows, columns = ["REC", "nClicks",  "Whale", "TsTo", "Vocalization", "Coda", "Duration"] + [f"ICI{i+1}" for i in range(9)] )
 
+    new_data["Coda"] = [int(v) if not pd.isnull(v) else -1 for v in new_data["Coda"]]
     new_data.to_csv("data/sperm-whale-dialogues-codas.csv")
