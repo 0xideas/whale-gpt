@@ -6,6 +6,45 @@ import random
 import string
 from sklearn.metrics.pairwise import manhattan_distances
 
+rhythm = {
+    "1+1+3": 5,
+    "1+31": 4,
+    "1+32": 4,
+    "1-NOISE": -1,
+    "10-NOISE": -1,
+    "10R": 16,
+    "10i": 17,
+    "2+3": 7,
+    "2-NOISE": -1,
+    "3-NOISE": -1,
+    "3D": 0,
+    "3R": 1,
+    "4-NOISE": -1,
+    "4D": 2,
+    "4R1": 3,
+    "4R2": 3,
+    "5-NOISE": -1,
+    "5R1": 6,
+    "5R2": 6,
+    "5R3": 6,
+    "6-NOISE": -1,
+    "6R": 8,
+    "6i": 9,
+    "7-NOISE": -1,
+    "7D1": 10,
+    "7D2": 10,
+    "7R": 10,
+    "7i": 11,
+    "8-NOISE": -1,
+    "8D": 12,
+    "8R": 12,
+    "8i": 13,
+    "9-NOISE": -1,
+    "9R": 14,
+    "9i": 15,
+}
+
+
 class TreeNode():
     def __init__(self, val):
         self.name = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(16))
@@ -23,9 +62,13 @@ class TreeNode():
     
     def __repr__(self):
         return(str(self))
+    
+    def length(self, coda_lengths, cumsum, indent=0):
+        newsum = coda_lengths[self.val[0]] + cumsum
+        return(f"{newsum}\n" + "\n".join([(" " * indent) + child.length(coda_lengths, newsum, indent=indent+4) for child in self.children]))
 
 
-def coda_distances(sequence, means, only_equal=False):
+def coda_distances(sequence, means, only_equal=True):
     sequence_ = np.array(sequence)
     distance = {}
     for coda, mean in means.items():
@@ -38,7 +81,7 @@ def coda_distances(sequence, means, only_equal=False):
     return(distance)
     
 
-def get_coda(sequence, means, only_equal=False):
+def get_coda(sequence, means, only_equal=True):
     distances = coda_distances(sequence, means, only_equal)
     sorted_ = sorted(list(distances.items()), key=lambda x: x[1])
     if len(sorted_):
@@ -48,44 +91,59 @@ def get_coda(sequence, means, only_equal=False):
     
 def get_candidates_sorted_filtered(sequence, means, threshold=0.1, only_equal=True):
     distances = coda_distances(sequence, means, only_equal)
-    print(distances)
     sorted_ = sorted(list(distances.items()), key=lambda x: x[1])
     candidates = [(coda, distance) for coda, distance in sorted_ if distance <= threshold]
     return(candidates)
 
 
-def expand_tree(tree, candidates, sequence, sequence_eval_index, means, coda_lengths, limit, threshold, only_equal):
+def expand_tree(tree, candidates, sequence, sequence_eval_index, sequence_start, means, coda_lengths, limit, threshold, only_equal):
     for candidate in candidates:
-        sequence_remainder = sequence[coda_lengths[candidate[0]]:]
+        sequence_length = min(len(sequence), coda_lengths[candidate[0]])
+        sequence_end = sequence_start + sequence_length
+        sequence_remainder = sequence[sequence_length:]
         print(f"{sequence_remainder = }")
-        child = TreeNode(candidate)
+        child = TreeNode((*candidate, sequence_start, sequence_end, sequence[:sequence_length]))
         if len(sequence_remainder) > 1:
-            print("sequence_remainder 2")
                 # tree, sequence, sequence_eval_index, means, coda_lengths, limit=3, threshold=0.1, only_equal=True
-            child = get_coda_tree(child, sequence_remainder, sequence_eval_index, means, coda_lengths, limit, threshold, only_equal)
-            print(f"{child.children = }")
+            child = get_coda_tree(tree=child, sequence=sequence_remainder, sequence_eval_index=sequence_eval_index, sequence_start=sequence_end, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
             tree.addChild(child)
         elif len(sequence_remainder) == 1:
-            child.addChild(TreeNode((100, 1.0)))
+            child.addChild(TreeNode((100, 1.0, sequence_start, sequence_end+1)))
         tree.addChild(child)
         
     return(tree)
 
 
-def get_coda_tree(tree, sequence, sequence_eval_index, means, coda_lengths, limit=3, threshold=0.1, only_equal=True):
-    print(f"{sequence[:sequence_eval_index] = }")
+def get_coda_tree(tree, sequence, sequence_eval_index, sequence_start, means, coda_lengths, limit=3, threshold=0.1, only_equal=True):
     candidates = get_candidates_sorted_filtered(sequence[:sequence_eval_index], means, threshold, only_equal)[:limit]
-    print(f"{candidates = }")
     if len(candidates) > 0:
-        tree = expand_tree(tree, candidates, sequence, sequence_eval_index, means, coda_lengths, limit, threshold, only_equal)
+        tree = expand_tree(tree=tree, candidates=candidates, sequence=sequence, sequence_eval_index=sequence_eval_index, sequence_start=sequence_start, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
     else:
         if not 100 in [child.val[0] for child in tree.children]:
             candidates1 = get_candidates_sorted_filtered(sequence[1:sequence_eval_index+1], means, threshold, only_equal)
             if len(candidates1) > 0:
-                child1 = expand_tree(TreeNode((100, 1.0)), candidates1, sequence, sequence_eval_index, means, coda_lengths, limit, threshold, only_equal)
+                child1 = expand_tree(tree=TreeNode((100, 1.0, sequence_start, sequence_start+1)), candidates=candidates1, sequence=sequence, sequence_eval_index=sequence_eval_index, sequence_start=sequence_start+1, means=means, coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
                 tree.addChild(child1)
 
         if sequence_eval_index > 1:
-            child2 = get_coda_tree(tree, sequence, sequence_eval_index-1, means, coda_lengths, limit, threshold, only_equal)
+            child2 = get_coda_tree(tree=tree, sequence=sequence, sequence_eval_index=sequence_eval_index-1, sequence_start=sequence_start, means=means,coda_lengths=coda_lengths, limit=limit, threshold=threshold, only_equal=only_equal)
     return(tree)
 
+
+def standardize(dataframe, len):
+    sums = np.sum(dataframe.values[:,:len], axis=1).reshape(-1, 1)
+    denom = np.concatenate([sums for _ in range(len)], axis=1)
+    cumsum = np.cumsum(dataframe.values[:,:len]/denom, axis=1)
+    return(np.concatenate([np.zeros((cumsum.shape[0], 1)), cumsum], axis=1))
+
+def get_coda_data(path="data/DominicaCodas.csv"):
+    codas = pd.read_csv(path)
+    codas["CodaTypeConverted"] = [rhythm[v] for v in codas["CodaType"]]
+    codas_groups = dict(tuple(codas.groupby("CodaTypeConverted")[[f"ICI{i+1}" for i in range(9)]]))
+    lengths = {k:(np.min(np.sum(v.values != 0, 1)), np.max(np.sum(v.values != 0, 1))) for k, v in codas_groups.items()}
+    standardised = {k:standardize(v, lengths[k][0]) for k,v in codas_groups.items() if k != -1}
+    means = {k: v.mean(axis=0) for k, v in standardised.items()}
+    means_trimmed = {k:v[1:] for k,v in means.items()}
+    coda_lengths = {k:len(v) for k, v in means_trimmed.items()}
+
+    return(means_trimmed, coda_lengths)
