@@ -3,7 +3,8 @@ import string
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics.pairwise import manhattan_distances, cosine_distances, euclidean_distances
+from sklearn.metrics.pairwise import (cosine_distances, euclidean_distances,
+                                      manhattan_distances)
 
 rhythm = {
     "1+1+3": 5,
@@ -282,7 +283,7 @@ if __name__ == "__main__":
             means,
             {k: len(v) for k, v in means.items()},
             limit=100,
-            threshold=0.1
+            threshold=0.1,
         )
         results[i] = (tree.get_best_path(extra_value=0.05), sequence)
 
