@@ -292,8 +292,10 @@ if __name__ == "__main__":
             delta = 9 - (end - start)
             assert (delta) >= 0, f"{path_tuples = } - {sequence = } - {delta = }"
             buffer = [0.0] * max(0, delta)
+            tsToDelta = np.sum(sequence[:start])
             new_row = (
-                list(dialogues.iloc[i, :][["REC", "nClicks", "Whale", "TsTo"]].values)
+                list(dialogues.iloc[i, :][["REC", "nClicks", "Whale"]].values)
+                + [dialogues.iloc[i, :]["TsTo"] + tsToDelta]
                 + [i, id_, np.sum(sequence[start:end])]
                 + list(sequence[start:end])
                 + buffer
@@ -307,4 +309,4 @@ if __name__ == "__main__":
     )
 
     new_data["Coda"] = [int(v) if not pd.isnull(v) else -1 for v in new_data["Coda"]]
-    new_data.to_csv("data/sperm-whale-dialogues-codas.csv")
+    new_data.to_csv("data/sperm-whale-dialogues-codas.csv", index=False)
