@@ -69,6 +69,11 @@ if __name__ == "__main__":
                 skip_next = True
             new_rows.append(new_row)
             item_position += 1
+
+            if (i+1) != len(new_vals):
+                next_vals = new_vals[i+1]
+                if vals["REC"] != next_vals["REC"]:
+                    item_position = 0
         else:
             skip_next = False
 
