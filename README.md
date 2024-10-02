@@ -1,4 +1,4 @@
-<img src="./assets/Sperm_whale_pod.jpg.png">
+<img src="./assets/Sperm_whale_pod.jpg">
 
 
 Hello!
