@@ -1,6 +1,11 @@
 """
 This code processes whale vocalization data to generate a structured **dialogue** format from the previously processed **coda sequences**. Here’s a breakdown of what each section of the code does:
 
+**Special coda values**:
+ - 98: silence
+ - 99: change between vocalizations
+ - 100: whether the next row contains ornamentation
+
 ### 1. **Constants and Data Loading**:
 - **THRESHOLD = 0.3**: This constant is used to define the maximum time gap (in seconds) between two codas for them to be considered simultaneous.
 - The script reads the file `sperm-whale-dialogues-codas-manhattan.csv` into a pandas DataFrame called `data`.
@@ -30,7 +35,8 @@ This code processes whale vocalization data to generate a structured **dialogue*
   - `Coda2`, `Ornamentation2`, `Duration2`: The other whale’s data (if applicable).
 
 ### 5. **Filtering and Final Processing**:
-- The script filters the `new_rows` to remove rows with `Coda1` values of `98` (indicating silence).
+- The script filters up to 10 prior rows from `new_rows` to remove PrimaryWhale rows with `Coda1` values of `98` (indicating silence). 
+  - This restricts the data to rows where the PrimaryWhale is "speaking" or "speaking" soon
 - It checks previous rows (within a window of 10 rows) to ensure all relevant entries are included and adds them to `new_rows_filtered`.
 
 ### 6. **Saving the Dialogue Data**:
