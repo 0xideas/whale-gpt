@@ -1,6 +1,6 @@
 Hello!
 
-This repo is a first attempt to build WhaleGPT, a transformer 'language' model for whale language. The data and codas used in this model come from this work from [Sharma et al.](https://github.com/pratyushasharma/sw-combinatoriality). At this point the data is likely insufficient for a directly useful outcome, so the model has to be considered experimental.
+This repo is a first attempt to build WhaleGPT, a transformer 'language' model for whale language. The data and codas used in this model come from this work from [Sharma et al.](https://github.com/pratyushasharma/sw-combinatoriality) At this point the data is likely insufficient for a model that is directly useful, so it should be considered experimental.
 
 The approach is the following:
 
