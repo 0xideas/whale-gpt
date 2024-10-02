@@ -35,7 +35,7 @@ This code processes whale vocalization data to generate a structured **dialogue*
   - `Coda2`, `Ornamentation2`, `Duration2`: The other whale’s data (if applicable).
 
 ### 5. **Filtering and Final Processing**:
-- The script filters up to 10 prior rows from `new_rows` to remove PrimaryWhale rows with `Coda1` values of `98` (indicating silence). 
+- The script filters up to 10 prior rows from `new_rows` to remove PrimaryWhale rows before any `Coda1` value of `98` (indicating silence). This removes 9 Codas prior to silence, whatever coda they contain.
   - This restricts the data to rows where the PrimaryWhale is "speaking" or "speaking" soon
 - It checks previous rows (within a window of 10 rows) to ensure all relevant entries are included and adds them to `new_rows_filtered`.
 
