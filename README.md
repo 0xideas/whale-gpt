@@ -12,7 +12,7 @@ Several generated "Whale dialogues" can be found in [`outputs/predictions/sequif
 
 The roughly 9k observations contained in this dataset are clearly insufficient to create a useful model, but this modelling work should serve as an encouragement for additional data collection and a basis for future model development.
 
-The development of this model can be reproduced in the following steps, using Mac (or likely most Linux distributions). Since all the artefacts are also contained in this repository, all the steps after 3. can also be executed individually.
+The development of this model can be reproduced in the following steps, using Mac (or likely most Linux distributions). Since all the artefacts are also contained in this repository, all the steps after can also be executed individually (after executing 1., 2., 3. and 7.).
 
 1. `conda create --name whale-gpt python=3.11 -y`
 2. `conda activate whale-gpt`
