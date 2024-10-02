@@ -1,28 +1,85 @@
 <img src="./assets/Sperm_whale_pod.jpg">
 
+# WhaleGPT: A Transformer Model for Whale Communication
 
-Hello!
+This repository contains **WhaleGPT**, an experimental transformer model designed to explore whale vocalization patterns using data from Sharma et al. Although the data is currently insufficient for practical applications, this project aims to lay the foundation for further research into whale language.
 
-This repo is a first attempt to build WhaleGPT, a transformer 'language' model for whale language. The data and codas used in this model come from [Sharma et al.](https://github.com/pratyushasharma/sw-combinatoriality) At this point the data is likely insufficient for a model that is directly useful, so it should be considered experimental.
+## Overview
 
-The approach is the following:
+WhaleGPT is a decoder-only transformer model that autoregressively predicts sequences of whale vocalizations, also known as **codas**. This project includes the necessary scripts for encoding raw whale click sequences into a structured format suitable for modeling, training the model, and generating predictions.
 
-1. The data used in Sharma et al. contains click sequences with a length of up to 28 inter click intervals, i.e. 29 clicks, but the codas being used to encode these click sequences have up to 9 inter click intervals, i.e. up to 10 clicks. Longer click sequences can not be encoded as a single coda, as throwign away surplus click intervals would be rash. We have therefore developed an algorithm to code click sequences into codas, contained in [`scripts/0_extract_codas.py`](https://github.com/0xideas/whale-gpt/blob/main/scripts/0_extract_codas.py). This algorithm is used to decode all click sequences, now named 'vocalizations', into sequences of codas. This applies to all vocalizations, including those consisting of 10 clicks or less. The algorithm takes the mean relative interval sequence for each coda (i.e. the mean time percentile of each click in the coda), and recursively divides the vocalization into codas or 'surplus' clicks (that can usually be interpreted as ornamentation). The sequences of these subdivisions are then scored by the manhattan distance, and the sequence of codas with the minimum total distance is then taken as the vocalization encoding into codas.
-2. These coda sequences are then encoded into dialogue form using [`scripts/1_create_dialogue.py`](https://github.com/0xideas/whale-gpt/blob/main/scripts/1_create_dialogue.py). The main decisions on how to represent these overlapping coda sequences by multiple whales in discrete form are (1) Codas that begin sufficiently close in time are considered simultaneous and encoded in a single row. The threshold used to making this determination is somewhat arbitrary and currently set to 0.3 seconds. (2) Some recordings contain two or more whales, and this can be represented in multiple ways. Here, we adopt a 'me' vs 'other' encoding, where for each whale contained in a recording, the codas emitted by the whale is encoded in the columns "Coda1", "Ornamentation1" and "Duration1", while the codas emitted by any of the other whales are encoded in the columns "Coda2", "Ornamentation2" and "Duration2". When either the primary whale or the other whales are silent, this is encoded with an additional token '98'. The data used for modelling can be found at [`data/whale-dialogues.csv`](https://github.com/0xideas/whale-gpt/blob/main/data/whale-dialogues.csv).
-3. The language model itself is a decoder only transformer with 126k parameters that autoregressively models "Coda1", "Ornamentation1", "Duration1", "Coda2", "Ornamentation2" and "Duration2". Each incremental output of these variables is generated from the previous 25 values of all of these variables. We use the package [sequifier](https://github.com/0xideas/sequifier) that enables the easy configuration, training and inference for models of this type.
+## Key Concepts
 
-Several generated "Whale dialogues" can be found in [`outputs/predictions/sequifier-dialogue-best-5000-predictions.csv`](https://github.com/0xideas/whale-gpt/blob/main/outputs/predictions/sequifier-dialogue-best-5000-predictions.csv), where each sequenceId value is a single "dialogue". Currently most of them end up with both whales repeatedly emitting the coda "5", either while the other is silent or together. 
+- **Click Sequences**: Whale vocalizations in the Sharma dataset consist of up to 29 clicks, represented by intervals between each click (called inter-click intervals).
+- **Codas**: These are subsets of the click sequences, typically consisting of up to 10 clicks (9 intervals). Codas are the core units used to encode and represent the click sequences.
+- **Vocalizations**: Longer click sequences are divided into codas, with any surplus clicks treated as ornamentation. The division minimizes the **Manhattan distance** to ensure an accurate representation.
 
-The roughly 9k observations contained in this dataset are clearly insufficient to create a useful model, but this modelling work should serve as an encouragement for additional data collection and a basis for future model development.
+## Methodology
 
-The development of this model can be reproduced in the following steps, using Mac (or likely most Linux distributions). Since all the artefacts are also contained in this repository, all the steps after can also be executed individually (after executing 1., 2., 3. and 7.).
+1. **Extracting Codas**:  
+   The script `0_extract_codas.py` breaks down whale click sequences into codas, ensuring that the entire sequence is encoded while preserving surplus clicks. The algorithm:
+   - Compares the mean relative intervals of codas.
+   - Divides the vocalization into codas or treats the excess clicks as ornamentation.
+   - Scores these divisions by the Manhattan distance and selects the encoding with the lowest total distance.
 
-1. `conda create --name whale-gpt python=3.11 -y`
-2. `conda activate whale-gpt`
-3. `pip install sequifier==0.4.0.0 scikit-learn`
-4. `python scripts/00_create_coda_means.py`
-5. `python scripts/0_extract_codas.py`
-6. `python scripts/1_create_dialogue.py`
-7. `sequifier preprocess`
-8. `sequifier train`
-9. `sequifier infer`
+2. **Creating Whale Dialogues**:  
+   The script `1_create_dialogue.py` generates dialogues from overlapping coda sequences. Key decisions include:
+   - **Simultaneity**: Codas starting within 0.3 seconds of each other are considered simultaneous and placed in a single row.
+   - **Multiple Whales**: When multiple whales are present, a "me" vs. "other" encoding is applied. Each whale's codas are represented separately in the columns:
+     - `Coda1`, `Ornamentation1`, `Duration1` for the primary whale.
+     - `Coda2`, `Ornamentation2`, `Duration2` for other whales.  
+     Silence is represented by the token `98`.
+
+3. **Training the Model**:  
+   WhaleGPT is a transformer model with 126k parameters. It uses the previous 25 values of all six variables (`Coda1`, `Ornamentation1`, `Duration1`, `Coda2`, `Ornamentation2`, `Duration2`) to predict the next increment in these sequences.
+
+4. **Data**:  
+   The dataset used for training is located in `data/whale-dialogues.csv`, consisting of around 9,000 observations. The generated whale dialogues can be found in `outputs/predictions/sequifier-dialogue-best-5000-predictions.csv`.
+
+## Current Limitations
+
+Due to the limited data size, the model tends to generate repetitive outputs, where both whales emit the coda "5" either while the other is silent or simultaneously. Despite this, the model serves as a starting point for further experimentation and highlights the need for more extensive whale vocalization data.
+
+## Setup & Reproducibility
+
+To reproduce the development of WhaleGPT, follow these steps. (Note: these steps should work on Mac or most Linux distributions.)
+
+### 1. Environment Setup
+
+```bash
+conda create --name whale-gpt python=3.11 -y
+conda activate whale-gpt
+pip install sequifier==0.4.0.0 scikit-learn
+```
+
+### 2. Run Preprocessing Scripts
+
+```bash
+# Compute mean relative intervals for codas
+python scripts/00_create_coda_means.py
+
+# Extract codas from raw click sequences
+python scripts/0_extract_codas.py
+
+# Create dialogue data from overlapping coda sequences
+python scripts/1_create_dialogue.py
+```
+
+### 3. Model Training and Inference
+
+```bash
+# Preprocess the data
+sequifier preprocess
+
+# Train the transformer model
+sequifier train
+
+# Generate predictions
+sequifier infer
+```
+
+## Future Directions
+
+This project demonstrates the feasibility of applying transformer models to whale vocalizations, but further research is required. Specifically:
+- **Data Collection**: More whale vocalization data is needed to improve the model's accuracy.
+- **Model Refinement**: Experiment with model architecture and hyperparameters to better capture the intricacies of whale communication.
