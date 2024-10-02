@@ -1,16 +1,17 @@
 project_path: .
-model_name: default
+model_name: dialogue3
 read_format: csv
-ddconfig_path: configs/ddconfigs/whale-sequences.json
+ddconfig_path: configs/ddconfigs/whale-dialogues.json
 
-selected_columns: ["Coda", "Ornamentation", "Duration", "VocalizationChange", "SpeakerChange"] # should include all target column, can include additional columns
-target_columns: ["Coda", "Ornamentation", "Duration", "VocalizationChange", "SpeakerChange"] # should include all target column, can include additional columns
+selected_columns: ["Coda1", "Ornamentation1", "Duration1", "Coda2", "Ornamentation2", "Duration2"] # should include all target column, can include additional columns
+target_columns: ["Coda1", "Ornamentation1", "Duration1", "Coda2", "Ornamentation2", "Duration2"] # should include all target column, can include additional columns
 target_column_types: # 'criterion' in training_spec must also be adapted
-  Coda: categorical
-  Ornamentation: categorical
-  Duration: real
-  VocalizationChange: categorical
-  SpeakerChange: categorical
+  Coda1: categorical
+  Ornamentation1: categorical
+  Duration1: real
+  Coda2: categorical
+  Ornamentation2: categorical
+  Duration2: real
 
 seq_length: 25
 inference_batch_size: 1
@@ -18,29 +19,37 @@ inference_batch_size: 1
 export_onnx: true
 
 model_spec:
-  d_model: 256
+  d_model: 72
+  d_model_by_column: # the size of the embedding of individual variables, must sum to d_model
+    Coda1: 16
+    Ornamentation1: 16
+    Duration1: 4
+    Coda2: 16
+    Ornamentation2: 16
+    Duration2: 4
   nhead: 8
-  d_hid: 256
+  d_hid: 128
   nlayers: 3
 training_spec:
   device: cuda
-  epochs: 1000
+  epochs: 5000
   iter_save: 50
-  batch_size: 100
+  batch_size: 1000
   log_interval: 3
-  lr: 0.00001
+  lr: 0.0001
   accumulation_steps: 1
   dropout: 0.2
   criterion:
-    Coda: CrossEntropyLoss
-    Ornamentation: CrossEntropyLoss
-    Duration: MSELoss
-    VocalizationChange: CrossEntropyLoss
-    SpeakerChange: CrossEntropyLoss
+    Coda1: CrossEntropyLoss
+    Ornamentation1: CrossEntropyLoss
+    Duration1: MSELoss
+    Coda2: CrossEntropyLoss
+    Ornamentation2: CrossEntropyLoss
+    Duration2: MSELoss
   optimizer:
-    name: AdamW
+    name: AdamP
   scheduler:
     name: CosineAnnealingLR
-    T_max: 100
-    eta_min: 0.000001
-  continue_training: true
+    T_max: 111
+    eta_min: 0.00001
+  continue_training: false

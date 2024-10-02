@@ -1,8 +1,8 @@
 project_path: .
-data_path: data/whale-sequences.csv
+data_path: data/whale-dialogues.csv
 read_format: csv
 write_format: csv
-selected_columns: ["Coda", "Ornamentation", "Duration", "VocalizationChange", "SpeakerChange"] # should include all target column, can include additional columns
+selected_columns: ["Coda1", "Ornamentation1", "Duration1", "Coda2", "Ornamentation2", "Duration2"] # should include all target column, can include additional columns
 
 group_proportions:
 - 0.8
