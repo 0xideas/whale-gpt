@@ -31,7 +31,7 @@ model_spec:
   d_hid: 128
   nlayers: 3
 training_spec:
-  device: cuda
+  device: mps
   epochs: 5000
   iter_save: 50
   batch_size: 1000
