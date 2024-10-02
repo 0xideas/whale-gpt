@@ -1,5 +1,5 @@
 project_path: .
-model_name: dialogue3
+model_name: dialogue4
 read_format: csv
 ddconfig_path: configs/ddconfigs/whale-dialogues.json
 
@@ -42,10 +42,10 @@ training_spec:
   criterion:
     Coda1: CrossEntropyLoss
     Ornamentation1: CrossEntropyLoss
-    Duration1: MSELoss
+    Duration1: L1Loss
     Coda2: CrossEntropyLoss
     Ornamentation2: CrossEntropyLoss
-    Duration2: MSELoss
+    Duration2: L1Loss
   optimizer:
     name: AdamP
   scheduler:

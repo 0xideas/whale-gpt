@@ -1,6 +1,6 @@
 project_path: .
 ddconfig_path: configs/ddconfigs/whale-dialogues.json
-model_path: models/sequifier-dialogue3-best-5000.onnx
+model_path: models/sequifier-dialogue4-best-5000.onnx
 data_path: data/whale-dialogues-split2.csv
 read_format: csv
 
