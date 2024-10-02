@@ -1,5 +1,5 @@
 project_path: .
-model_name: dialogue4
+model_name: dialogue
 read_format: csv
 ddconfig_path: configs/ddconfigs/whale-dialogues.json
 

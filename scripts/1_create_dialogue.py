@@ -14,11 +14,8 @@ if __name__ == "__main__":
         rec_data = rec_data.sort_values("TsTo").reset_index(drop=True)
         whales = np.unique(rec_data["Whale"].values)
         for whale in whales:
-
             for i, row in rec_data.iterrows():
-
                 if row["Coda"] not in [100, -1]:
-
                     if (i + 1) != rec_data.shape[0]:
                         ornamentation = int(rec_data["Coda"].values[i + 1] == 100)
                     else:
