@@ -1,6 +1,6 @@
 Hello!
 
-This repo is a first attempt to build WhaleGPT, a transformer 'language' model for whale language. The data and codas used in this model come from this work from [Sharma et al.](https://github.com/pratyushasharma/sw-combinatoriality)
+This repo is a first attempt to build WhaleGPT, a transformer 'language' model for whale language. The data and codas used in this model come from this work from [Sharma et al.](https://github.com/pratyushasharma/sw-combinatoriality). At this point the data is likely insufficient for a directly useful outcome, so the model has to be considered experimental.
 
 The approach is the following:
 
@@ -14,12 +14,12 @@ The roughly 9k observations contained in this dataset are clearly insufficient t
 
 The development of this model can be reproduced in the following steps, using Mac (or likely most Linux distributions). Since all the artefacts are also contained in this repository, all the steps after 3. can also be executed individually.
 
-1. conda create --name whale-gpt python=3.11 -y
-2. conda activate whale-gpt
-3. pip install sequifier==0.4.0.0 scikit-learn
-4. python scripts/00_create_coda_means.py
-5. python scripts/0_extract_codas.py
-6. python scripts/1_create_dialogue.py
-7. sequifier preprocess
-8. sequifier train
-9. sequifier infer
+1. `conda create --name whale-gpt python=3.11 -y`
+2. `conda activate whale-gpt`
+3. `pip install sequifier==0.4.0.0 scikit-learn`
+4. `python scripts/00_create_coda_means.py`
+5. `python scripts/0_extract_codas.py`
+6. `python scripts/1_create_dialogue.py`
+7. `sequifier preprocess`
+8. `sequifier train`
+9. `sequifier infer`
