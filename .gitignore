@@ -3,4 +3,8 @@ logs/
 checkpoints/
 outputs/
 data/
+notebooks/
 .DS_Store
+.ruff_cache
+.*
+!/.gitignore
