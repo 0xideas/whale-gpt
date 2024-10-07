@@ -1,0 +1,52 @@
+project_path: .
+model_name: dialogue
+read_format: csv
+ddconfig_path: configs/ddconfigs/whale-dialogue-script.json
+
+selected_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+target_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+target_column_types: # 'criterion' in training_spec must also be adapted
+  Whale: categorical
+  Coda: categorical
+  Ornamentation: categorical
+  Synchrony: categorical
+  Duration: real
+
+seq_length: 25
+inference_batch_size: 1
+
+export_onnx: true
+
+model_spec:
+  d_model: 24
+  d_model_by_column:
+    Whale: 5
+    Coda: 10
+    Ornamentation: 3
+    Synchrony: 3
+    Duration: 3
+  nhead: 8
+  d_hid: 128
+  nlayers: 3
+training_spec:
+  device: mps
+  epochs: 5000
+  iter_save: 50
+  batch_size: 1000
+  log_interval: 3
+  lr: 0.0001
+  accumulation_steps: 1
+  dropout: 0.2
+  criterion:
+    Whale: CrossEntropyLoss
+    Coda: CrossEntropyLoss
+    Ornamentation: CrossEntropyLoss
+    Synchrony: CrossEntropyLoss
+    Duration: L1Loss
+  optimizer:
+    name: AdamP
+  scheduler:
+    name: CosineAnnealingLR
+    T_max: 111
+    eta_min: 0.00001
+  continue_training: false

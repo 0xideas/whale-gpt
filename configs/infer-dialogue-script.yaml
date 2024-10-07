@@ -1,0 +1,25 @@
+project_path: .
+ddconfig_path: configs/ddconfigs/whale-dialogue-script.json
+model_path: models/sequifier-dialogue-best-5000.onnx
+data_path: data/whale-dialogue-script-split2.csv
+read_format: csv
+
+selected_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+target_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+target_column_types: # 'criterion' in training_spec must also be adapted
+  Whale: categorical
+  Coda: categorical
+  Ornamentation: categorical
+  Synchrony: categorical
+  Duration: real
+
+
+output_probabilities: false
+map_to_id: true
+device: mps
+seq_length: 25
+inference_batch_size: 1
+
+autoregression: true
+autoregression_additional_steps: 20
+sample_from_distribution_columns:

@@ -30,7 +30,7 @@ if __name__ == "__main__":
                     and ((row["TsTo"] - rec_data.iloc[i + 1, :]["TsTo"]) < THRESHOLD)
                     and (row["Whale"] != rec_data.iloc[i + 1, :]["Whale"])
                 )
-                synchrony = synchrony_backwards or synchrony_forwards
+                synchrony = int(synchrony_backwards or synchrony_forwards)
 
                 row = (
                     rec_counter,
