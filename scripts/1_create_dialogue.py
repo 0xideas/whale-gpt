@@ -1,3 +1,56 @@
+"""
+This code processes whale vocalization data to generate a structured **dialogue** format from the previously processed **coda sequences**. Here’s a breakdown of what each section of the code does:
+
+**Special coda values**:
+ - 98: silence
+ - 99: change between vocalizations
+ - 100: whether the next row contains ornamentation
+
+### 1. **Constants and Data Loading**:
+- **THRESHOLD = 0.3**: This constant is used to define the maximum time gap (in seconds) between two codas for them to be considered simultaneous.
+- The script reads the file `sperm-whale-dialogues-codas-manhattan.csv` into a pandas DataFrame called `data`.
+  - The `Start` and `End` columns are computed based on the `TsTo` (timestamp) and `Duration` of each coda.
+
+### 2. **Organizing Data by Recordings**:
+- **Grouping by REC**: The script processes each whale recording (`REC`) individually using `groupby`.
+- It loops through each whale in a recording (`Whale`) and identifies:
+  - Whether the next row contains **ornamentation** (a Coda ID of 100).
+  - Whether the whale in the current row is the **primary whale** in the recording.
+  - For each coda, it stores this information into a dictionary (`vals`) with fields: `REC`, `Coda`, `Ornamentation`, `Duration`, `TsTo`, and `PrimaryWhale`.
+
+### 3. **Handling Vocalization Changes**:
+- **Vocalization Change Detection**: It checks if the vocalization has changed from the previous row. If it detects a change, it calculates the **duration between vocalizations** and adds a row with a special Coda ID of `99` to signify the change between vocalizations.
+
+### 4. **Building New Dialogue Rows**:
+- The script iterates over `new_vals`, which contains information for each coda and its associated details (such as `Coda`, `Ornamentation`, `Duration`, `PrimaryWhale`).
+- It processes codas in pairs based on their timestamps:
+  - **Primary Whale Handling**: If the coda belongs to the primary whale, it handles the encoding accordingly.
+  - **Parallel Condition**: It checks if two whales are vocalizing at nearly the same time (within the `THRESHOLD` of 0.3 seconds). If so, it encodes the codas from both whales into the same row.
+  - **Skipping Rows**: If a pair of codas from different whales are processed together, the next iteration skips the second whale's row to avoid duplicate entries.
+
+- The new rows are stored in `new_rows`, and each row contains:
+  - `REC`: The recording ID.
+  - `item_position`: The position in the sequence of the dialogue.
+  - `Coda1`, `Ornamentation1`, `Duration1`: The primary whale’s data.
+  - `Coda2`, `Ornamentation2`, `Duration2`: The other whale’s data (if applicable).
+
+### 5. **Filtering and Final Processing**:
+- The script filters up to 10 prior rows from `new_rows` to remove PrimaryWhale rows before any `Coda1` value of `98` (indicating silence). This removes 9 Codas prior to silence, whatever coda they contain.
+  - This restricts the data to rows where the PrimaryWhale is "speaking" or "speaking" soon
+- It checks previous rows (within a window of 10 rows) to ensure all relevant entries are included and adds them to `new_rows_filtered`.
+
+### 6. **Saving the Dialogue Data**:
+- After filtering, the processed dialogue data is stored in a new DataFrame `dialogue` with columns:
+  - `sequenceId`: The recording sequence ID.
+  - `itemPosition`: The position in the dialogue sequence.
+  - `Coda1`, `Ornamentation1`, `Duration1`: Data for the primary whale.
+  - `Coda2`, `Ornamentation2`, `Duration2`: Data for the other whale (if applicable).
+
+- The final dialogue data is saved to `data/whale-dialogues.csv`.
+
+### **Purpose of the Script**:
+This script takes the processed whale coda sequences and generates a **dialogue format** that represents the vocal interactions between multiple whales. It identifies moments where whales vocalize simultaneously and encodes those into a single row. This output can then be used for further analysis or model training to study the structure and patterns of whale communications.
+"""
 import numpy as np
 import pandas as pd
 
