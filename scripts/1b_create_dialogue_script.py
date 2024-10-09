@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 THRESHOLD = 0.3
@@ -12,9 +11,11 @@ if __name__ == "__main__":
     new_rows = []
     for rec, rec_data in data.groupby("REC"):
         rec_data = rec_data.sort_values("TsTo").reset_index(drop=True)
-        ts_to_baseline = rec_data.iloc[0, :]["TsTo"]
+        ts_to_baseline = None
         for i, row in rec_data.iterrows():
             if row["Coda"] not in [100, -1]:
+                if ts_to_baseline is None:
+                    ts_to_baseline = row["TsTo"]
                 if (i + 1) != rec_data.shape[0]:
                     ornamentation = int(rec_data["Coda"].values[i + 1] == 100)
                 else:
