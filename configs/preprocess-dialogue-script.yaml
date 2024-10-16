@@ -1,0 +1,13 @@
+project_path: .
+data_path: data/whale-dialogue-script.csv
+read_format: csv
+write_format: csv
+selected_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+
+group_proportions:
+- 0.8
+- 0.1
+- 0.1
+seq_length: 25
+seq_step_size: 1
+max_rows: null
