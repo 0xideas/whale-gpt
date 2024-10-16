@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data from the new data format
-data = pd.read_csv("../data/whale-dialogue-script.csv")
+data = pd.read_csv("data/whale-dialogue-script.csv")
 
 
 # Reconstruct 'ConstructedString'
@@ -30,18 +30,8 @@ def return_tempo(dur):
         return 4
 
 
-def get_coda_string_representation(coda, tempo, ornamentation):
-    # print("")
-    # print("coda")
-    # print(coda)
-    rhythm_index = coda - 1  # Adjusting to 0-based index
-    # print("rhythm_index")
-    # print(rhythm_index)
+def get_coda_string_representation(rhythm_index, tempo, ornamentation):
     rhythm_char = chr(ord("a") + rhythm_index)
-    # print("rhythm_char")
-    # print(rhythm_char)
-    # print("ornamentation")
-    # print(ornamentation)
     if ornamentation == 1:
         rhythm_char = rhythm_char.upper()
     else:
@@ -75,9 +65,6 @@ for i, row in data.iterrows():
         delta_from_last_coda = coda_start_time - prev_start_time
 
     whale_number = int(row["Whale"])
-    # print("")
-    # print("row")
-    # print(row)
     assert 100 > int(whale_number) > 0
     coda = int(row["Coda"])  # Assuming this corresponds to 'Rhythm' in old code
     ornamentation = int(row["Ornamentation"])
@@ -121,10 +108,8 @@ def determine_rubato(
         return " "
 
     # make sure the coda is one of the possibilities ('a' through 'r')
-    # print("word_string[0].lower()")
-    # print(word_string[0].lower())
-    # assert word_string[0].lower() in [chr(i) for i in range(ord('a'), ord('r') + 1)]
-    # assert word_string_previous[0].lower() in [chr(i) for i in range(ord('a'), ord('r') + 1)]
+    assert word_string[0].lower() in [chr(i) for i in range(ord('a'), ord('r') + 1)]
+    assert word_string_previous[0].lower() in [chr(i) for i in range(ord('a'), ord('r') + 1)]
 
     rhythm_previous = word_string_previous.lower()[0]
     rhythm = word_string.lower()[0]
@@ -190,8 +175,6 @@ for i in range(len(annotations)):
 
 # Function to print chorus
 def print_chorus(chorus_whales_data, f):
-    # print("chorus_whales_data")
-    # print(chorus_whales_data)
     sorted_keys = sorted(chorus_whales_data)
     sorted_texts = [
         chorus_whales_data[key] for key in sorted_keys
@@ -235,7 +218,7 @@ def print_time_no_vocalizations(time_diff, f):
 
 
 # Open the output file
-with open("../data/whale_dialogues.txt", "w") as f:
+with open("data/whale_dialogues.txt", "w") as f:
     # Print the dialogues
     for annotation_id, annotation in annotations.items():
         # Initialize variables
@@ -255,9 +238,6 @@ with open("../data/whale_dialogues.txt", "w") as f:
         for i in range(len(annotation)):
             line = annotation[i]
 
-            # for i in range(len(dialogue["dialogue"])):
-            #     line = dialogue["dialogue"][i]
-
             # Check time difference and manage chorus
             time_diff = line["time_delta"]
 
@@ -268,12 +248,7 @@ with open("../data/whale_dialogues.txt", "w") as f:
                 and previous_whale_name
                 and previous_whale_name != line["whale_number"]
             ):
-                # if (
-                #     line["synchrony"]
-                #     and previous_whale_name != line["whale_number"]
-
-                # ):
-                # if previous_whale_name and what_last_whale_said: # if not on the first one
+                # if not on the first one
                 if not previously_in_chorus:
                     # we don't need to repeat this one, it will be in the chorus, so go up to the penultamate entry
                     if len(what_last_whale_said_array) > 1:
@@ -295,9 +270,6 @@ with open("../data/whale_dialogues.txt", "w") as f:
                     and line["whale_number"] != ""
                 ):
                     chorus_whales_data[line["whale_number"]] = line["text"]
-                    # if previous_whale_name == "":
-                    #     print("Line 297 Whale {previous_whale_name}")
-                    #     quit()
 
                 what_last_whale_said = ""
                 what_last_whale_said_array = []
@@ -350,7 +322,6 @@ with open("../data/whale_dialogues.txt", "w") as f:
                         + " ".join(what_last_whale_said_array[:-1])
                         + ".\n"
                     )
-                    # previous_whale_name = ""  # empty as there is no previous, it's the start of a conversation
                     what_last_whale_said = (
                         f"Whale {line['whale_number']}: {line['text']}"
                     )
@@ -371,3 +342,4 @@ with open("../data/whale_dialogues.txt", "w") as f:
 
         # an extra newline before filenames to indicate significant separation
         f.write("\n")
+    print("Script with text representation saved in data/whale_dialogues.txt")
