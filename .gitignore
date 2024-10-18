@@ -3,8 +3,11 @@ logs/
 checkpoints/
 outputs/
 data/
+!data/whale-dialogue-script.txt
+
 notebooks/
 .DS_Store
 .ruff_cache
 .*
 !/.gitignore
+
