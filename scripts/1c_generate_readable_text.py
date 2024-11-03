@@ -129,12 +129,13 @@ def print_time_no_vocalizations(time_diff, f):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Description of your program')
-    parser.add_argument('filename', default="data/whale-dialogue-script.csv", help="CSV file in the 'script' format")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('path')
+    args = vars(parser.parse_args())
 
-    filename = "whale-dialogue-script.csv"
     # Load the data from the new data format
-    data = pd.read_csv(f"data/{filename}")
+    path = args["path"]
+    data = pd.read_csv(path)
 
     # Initialize all the different conversations as empty arrays
     annotations = {sequence_id: [] for sequence_id in data["sequenceId"].unique()}
@@ -142,18 +143,15 @@ if __name__ == "__main__":
     prev_sequence_id = -np.inf
     for i, row in data.iterrows():
         sequence_id = row["sequenceId"]
-        coda_start_time = float(row["TsToAbs"])  # Start time of the coda
+        time_delta = float(row["TimeDelta"])  # Start time of the coda
         if prev_sequence_id != sequence_id:
             # this is a new sequence
-            delta_from_last_coda = 0
-            prev_start_time = 0
             prev_rhythm_letter = None
             is_first_in_sequence = True
             prev_coda_duration = -np.inf
         else:
             # this is another coda in the sequence
             is_first_in_sequence = False
-            delta_from_last_coda = coda_start_time - prev_start_time
 
         whale_number = int(row["Whale"])
         assert 100 > int(whale_number) > 0
@@ -174,7 +172,7 @@ if __name__ == "__main__":
                 "rhythm_letter": rhythm_letter,
                 "tempo": tempo,
                 "duration": duration,
-                "time_delta": delta_from_last_coda,
+                "time_delta": time_delta,
                 "synchrony": synchrony,
                 "prev_coda_duration": prev_coda_duration,
                 "prev_rhythm_letter": prev_rhythm_letter,
@@ -182,7 +180,6 @@ if __name__ == "__main__":
         )
 
         prev_sequence_id = sequence_id
-        prev_start_time = coda_start_time
         prev_coda_duration = duration
         prev_rhythm_letter = rhythm_letter
 
@@ -214,7 +211,7 @@ if __name__ == "__main__":
             annotations[recording_id][coda_position]["text"] = rubato_string + this_coda["rhythm_letter"]
 
     # Open the output file
-    with open(f"data/{filename.replace('csv', 'txt')}", "w") as f:
+    with open(f"{path.replace('.csv', '-readable.txt')}", "w") as f:
         # Print the dialogues
         for annotation_id, annotation in annotations.items():
             # Initialize variables
@@ -338,4 +335,3 @@ if __name__ == "__main__":
 
             # an extra newline before filenames to indicate significant separation
             f.write("\n")
-        print("Script with text representation saved in data/whale_dialogues.txt")

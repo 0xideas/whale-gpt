@@ -3,14 +3,15 @@ model_name: dialogue-script
 read_format: csv
 ddconfig_path: configs/ddconfigs/whale-dialogue-script.json
 
-selected_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
-target_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration"] # should include all target column, can include additional columns
+selected_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration", "TimeDelta"] # should include all target column, can include additional columns
+target_columns: ["Whale", "Coda", "Ornamentation", "Synchrony", "Duration", "TimeDelta"] # should include all target column, can include additional columns
 target_column_types: # 'criterion' in training_spec must also be adapted
   Whale: categorical
   Coda: categorical
   Ornamentation: categorical
   Synchrony: categorical
   Duration: real
+  TimeDelta: real
 
 seq_length: 25
 inference_batch_size: 1
@@ -18,18 +19,19 @@ inference_batch_size: 1
 export_onnx: true
 
 model_spec:
-  d_model: 24
+  d_model: 32
   d_model_by_column:
-    Whale: 5
+    Whale: 6
     Coda: 10
-    Ornamentation: 3
-    Synchrony: 3
-    Duration: 3
+    Ornamentation: 4
+    Synchrony: 4
+    Duration: 4
+    TimeDelta: 4
   nhead: 8
   d_hid: 128
   nlayers: 3
 training_spec:
-  device: mps
+  device: cuda
   epochs: 5000
   iter_save: 50
   batch_size: 1000
@@ -43,6 +45,7 @@ training_spec:
     Ornamentation: CrossEntropyLoss
     Synchrony: CrossEntropyLoss
     Duration: L1Loss
+    TimeDelta: L1Loss
   optimizer:
     name: AdamP
   scheduler:
