@@ -1,0 +1,2242 @@
+Sequence ID: 0
+Whale 1:  i1 -i1  b1 /B1  i1 -i1  d1  b1 /B1  f3 \f3 -f3 -f3  b2  a1.
+In chorus, whales 1, 2:  f3  d3.
+In chorus, whales 1, 2:  F3 /d3.
+Whale 2:  d4  d5.
+Whale 1:  f4.
+In chorus, whales 1, 2: \f4  d4.
+In chorus, whales 1, 2:  f4 \d4.
+Whale 2:  d4.
+In chorus, whales 1, 2:  f4 /d4.
+Whale 2:  d4 \d4 -D4.
+Whale 1:  i1 -i1  d1  b1 /b1.
+In chorus, whales 1, 2:  l1  d4.
+Whale 1:  d1  b1.
+
+(No vocalizations, 25 seconds)
+
+In chorus, whales 1, 2: /B1  d3.
+Whale 1:  b1 /b1.
+In chorus, whales 1, 2: /b1  d3.
+Whale 1: \i1  b1 /b1 /B1.
+In chorus, whales 1, 2:  q1  d3.
+Whale 1:  b1 /B1  i1.
+In chorus, whales 1, 2: -i1  d3.
+Whale 1:  B1  d1 /d1 -d1 -d1  b1 /B1  i1 -i1  d1  b1 /B1.
+Whale 2:  e1.
+In chorus, whales 1, 2:  f3  d1.
+Whale 2: -d1 -d1 /d1  a1.
+Whale 1:  f3 -F3.
+
+
+Sequence ID: 1
+Whale 1:  E3.
+In chorus, whales 1, 2:  f4  d3.
+Whale 2:  d3.
+In chorus, whales 1, 2:  f4 /d3.
+Whale 1:  b1.
+Whale 2:  d4  d5 -d5.
+Whale 1:  f5.
+In chorus, whales 1, 2: -f5  b3.
+Whale 2:  b1 /B1 \b1 /b1.
+In chorus, whales 1, 2:  f4  d4.
+In chorus, whales 1, 2: -f4  d4.
+Whale 1:  b1.
+In chorus, whales 1, 2: /B1  D3.
+Whale 1:  q1  d1  b1.
+In chorus, whales 1, 2: /b1  d3.
+Whale 1:  i1 -i1  d1  b1.
+In chorus, whales 1, 2: /B1  d4.
+Whale 1:  j1  i1  d1  b1 /b1.
+In chorus, whales 1, 2:  j1  d4.
+Whale 1: /j1.
+In chorus, whales 1, 2:  B1  d3.
+Whale 1:  f3.
+In chorus, whales 1, 2: -F3  n1.
+Whale 2:  D1.
+Whale 1:  f3 -f3 -f3.
+
+
+Sequence ID: 2
+Whale 2:  a1.
+In chorus, whales 1, 2:  G1  a1.
+In chorus, whales 1, 2: \b1  a1.
+Whale 1: \a1  B1.
+In chorus, whales 1, 2:  g1  a1.
+In chorus, whales 1, 2:  g1 -a1.
+Whale 1:  C1  g1  f1  g1 /G1 \g1  C1.
+
+
+Sequence ID: 3
+Whale 2:  l1 -l1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  L1.
+
+
+Sequence ID: 4
+Whale 2:  l1  b1.
+
+
+Sequence ID: 5
+Whale 1:  b1  a1  b1 -b1  i1  b1  g1.
+In chorus, whales 1, 2: /g1  A1.
+Whale 2:  a1.
+In chorus, whales 1, 2:  g1 -a1.
+In chorus, whales 1, 2: \g1  d3.
+Whale 1:  a1.
+In chorus, whales 1, 2:  b1  d3.
+Whale 2:  d3.
+
+
+Sequence ID: 6
+Whale 1:  g1.
+In chorus, whales 1, 2: /g1  A1.
+Whale 1:  g1.
+
+
+Sequence ID: 7
+Whale 2:  d3  b1.
+
+
+Sequence ID: 8
+Whale 2:  f3  a1  b1.
+In chorus, whales 2, 3:  g3 /g3.
+Whale 2: \g3  a1  B1  d3 \d3  g4.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 2, 3:  g3  D3.
+In chorus, whales 1, 2, 3:  f3 /g3 \G3.
+In chorus, whales 1, 2:  c3  g2.
+Whale 1:  E2  b2  b1.
+Whale 2:  b2  b1.
+Whale 1:  f3.
+In chorus, whales 1, 5, 6:  f4  f3 \f4.
+In chorus, whales 1, 9: -F5  c2.
+Whale 1:  b3.
+
+
+Sequence ID: 9
+In chorus, whales 1, 2:  C4  f5.
+Whale 2: -E3 -e3  d3  b1  f4  C3  e3  f4  F5.
+Whale 1:  e3  f5 /f5.
+In chorus, whales 1, 2:  F5  C4.
+Whale 1: /e3  b1.
+Whale 2:  f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  c4.
+In chorus, whales 1, 2:  a3  B1.
+Whale 1:  a1.
+In chorus, whales 1, 2:  b1  D1.
+Whale 2: /D1.
+Whale 1:  a3  b1 /b1.
+Whale 2:  e3.
+In chorus, whales 1, 2:  c4  b1.
+Whale 1:  b1.
+
+
+Sequence ID: 10
+In chorus, whales 2, 3:  e3  D5.
+Whale 3:  d5 -d5 -d5.
+Whale 2:  c4  b1.
+Whale 3:  d5  d4 \d4  D3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  E2  b1.
+Whale 3:  d4 \d4 \d4.
+In chorus, whales 1, 3:  f4  d3.
+Whale 1:  f4  f3.
+Whale 3:  d5.
+
+(No vocalizations, 10 seconds)
+
+Whale 3:  D5.
+
+(No vocalizations, 1 minute)
+
+Whale 2:  q3  D1.
+Whale 1:  f4 -F4.
+
+(No vocalizations, 10 seconds)
+
+Whale 4:  i1.
+In chorus, whales 3, 4:  g3 -i1.
+Whale 4:  b1.
+In chorus, whales 1, 2, 3, 4, 5:  f4  g3  k1 /b1  d4.
+Whale 2:  b1.
+In chorus, whales 2, 3, 4:  d3  f3  D3.
+Whale 1:  i1 -i1  b1 /B1  l1.
+In chorus, whales 1, 2:  i1  d2.
+Whale 1:  b1  d1 -d1 -d1 -d1  b1 /b1 /b1  d1 /d1 -d1 -d1 /d1  b1 /b1  d1 /d1 \d1 -d1 /d1  b1 /b1  l1  i1  d1  b1 /B1  l1  j1  d1  b1.
+In chorus, whales 1, 2, 3: /b1  d3 -d3.
+Whale 1: \d3.
+In chorus, whales 1, 2:  b1  d3.
+Whale 1: \D3.
+In chorus, whales 1, 2:  g3  D4.
+Whale 1:  C2 -c2.
+In chorus, whales 1, 2, 3:  f3  d4  d3.
+Whale 2:  d3.
+In chorus, whales 1, 2, 3:  F3 -d3  c3.
+Whale 2:  D3.
+Whale 1:  f3.
+
+
+Sequence ID: 11
+Whale 1:  P1.
+Whale 2:  n1.
+In chorus, whales 1, 2:  g1  p1.
+Whale 1:  c2.
+In chorus, whales 1, 2:  f3  a1.
+Whale 1:  F3.
+In chorus, whales 1, 2:  c2  A1.
+In chorus, whales 1, 2:  c2 -a1.
+Whale 2:  a1 -a1.
+In chorus, whales 1, 2:  d1 /a1.
+Whale 1:  f1  g1 -g1  b1 \b1  g1 -g1.
+
+
+Sequence ID: 12
+Whale 1:  g1 -g1 -g1 -g1.
+
+
+Sequence ID: 13
+Whale 1:  n1  b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 1:  b1 /b1 -b1 /b1.
+
+
+Sequence ID: 14
+Whale 2:  f5 \f5 -f5  f4.
+Whale 1:  f5.
+In chorus, whales 1, 2: /f5  a2.
+Whale 1:  f5.
+In chorus, whales 1, 2: /f5 \f5.
+Whale 1:  f5.
+In chorus, whales 1, 2: /f5  F4.
+In chorus, whales 1, 2:  e3 \f4.
+Whale 1:  e3  c3  B1  E3 -E3 -e3  F5.
+In chorus, whales 1, 2:  i4  d5.
+In chorus, whales 1, 2:  B1  d4.
+Whale 2:  d5 /d5 -d5 /d5 /d5 /d5.
+
+
+Sequence ID: 15
+Whale 2:  d5.
+Whale 1:  f5.
+In chorus, whales 1, 2: \f5  d5.
+In chorus, whales 1, 2:  e3 /d5.
+Whale 1:  f5.
+
+
+Sequence ID: 16
+Whale 2:  d5.
+
+
+Sequence ID: 17
+In chorus, whales 1, 2:  c5  F5.
+Whale 1:  a3  b1 /B1.
+Whale 2:  c4  D2.
+Whale 1:  i1 \i1  d1  b1 /b1 /b1  i1 -i1  d1  b1 /b1 /b1.
+
+
+Sequence ID: 18
+In chorus, whales 1, 2, 3: /f4  f3  f5.
+In chorus, whales 1, 2:  b1  f3.
+Whale 2: \f4 /f4 /f4.
+Whale 1:  a3  b1 /b1.
+In chorus, whales 1, 2, 3: /B1  f4  e2.
+In chorus, whales 1, 2, 3:  f4  b1  g3.
+Whale 3:  m1.
+In chorus, whales 1, 2, 3:  f4 /f4  i1.
+In chorus, whales 1, 2, 3:  f4 -f4  C3.
+In chorus, whales 1, 2, 3:  E2 /f4  f5.
+In chorus, whales 1, 2, 3, 4:  b3  f4 /f5  f5.
+Whale 1:  B1.
+Whale 3:  a3  b1.
+In chorus, whales 3, 4: /b1  D4.
+In chorus, whales 1, 2, 3, 4, 5:  E2  f4 /f4  d4 /f3.
+Whale 6:  a2.
+In chorus, whales 1, 2, 6:  q1  f3  B1.
+Whale 1: /B1  i1 -i1  d1  B1  i1 /i1  d1  b1 /B1.
+In chorus, whales 1, 4:  d1  d3.
+Whale 1:  i1 -i1  d1  b1.
+In chorus, whales 1, 2, 4: /b1  f3  d3.
+Whale 1:  i1 -i1  d1  b1.
+In chorus, whales 1, 2, 4: /b1  F3  d3.
+Whale 1:  i1 -i1  d1  b1.
+In chorus, whales 1, 4: /b1  D3.
+Whale 1:  i1 -i1  b1.
+In chorus, whales 1, 3, 4: /b1  f3  d3.
+Whale 1:  i1 -i1  d1  b1.
+In chorus, whales 1, 2, 3, 4: /B1 \F3  f3  d3.
+In chorus, whales 2, 3, 4: \f3  d3  d3.
+Whale 3:  d3.
+
+
+Sequence ID: 19
+Whale 2:  d1  f3 -f3  b2  b1.
+Whale 3: \b1  g2  d1.
+
+
+Sequence ID: 20
+Whale 2:  f3  C3.
+
+
+Sequence ID: 21
+In chorus, whales 1, 2:  g1  g2.
+Whale 1:  b1.
+In chorus, whales 1, 2:  f3 -f3.
+In chorus, whales 1, 2: \f3 /f3.
+Whale 1: /f3.
+Whale 2: /f3.
+In chorus, whales 1, 2: -f3 \f3.
+In chorus, whales 1, 2:  f4  f5.
+Whale 2:  f5.
+In chorus, whales 1, 2:  f4 -f5.
+Whale 1:  f4 -f4 -f4 -f4 -f4 /f4 \f4 -f4.
+Whale 3:  B1 /B1.
+Whale 4:  f3  g3.
+In chorus, whales 1, 2, 3, 4:  f5 -f3  f5  f3.
+Whale 1:  f4.
+In chorus, whales 1, 2, 3, 4: /f4  d4  f3  d3.
+Whale 2:  d3.
+In chorus, whales 1, 2, 3:  f3  b2  d3.
+Whale 2:  b2.
+In chorus, whales 1, 2, 3:  f3  B1  d3.
+In chorus, whales 1, 2:  b2  C2.
+In chorus, whales 1, 2, 3:  f4  f3  d4.
+Whale 1:  a1.
+In chorus, whales 1, 2, 3:  B1  f3  f3.
+Whale 2: -d4.
+In chorus, whales 2, 3: /d4  f3.
+Whale 3:  b1  a1  g1.
+Whale 2:  b2  b1.
+
+(No vocalizations, 15 seconds)
+
+Whale 2:  f5  f3  d3.
+Whale 3:  b2  B1  c2  b1 \b1.
+
+(No vocalizations, 15 seconds)
+
+Whale 2:  f5.
+In chorus, whales 2, 3, 4:  f4  f3  f4.
+In chorus, whales 2, 3, 4:  d3  f4  b1.
+Whale 2:  f3.
+In chorus, whales 2, 3, 4: -f3  d1  d4.
+Whale 2:  f3.
+In chorus, whales 2, 3:  d4  f5.
+Whale 2:  f3  b2  b1.
+In chorus, whales 2, 3:  f3  d5.
+Whale 2:  b2  b1.
+Whale 3:  d5 -D5.
+
+(No vocalizations, 10 seconds)
+
+Whale 3:  E3.
+
+(No vocalizations, 20 seconds)
+
+Whale 2:  c2  F3  c3  b2  a1  b2  b1  f3 /f3  b2  b1  f3.
+In chorus, whales 1, 2:  f5 \f3.
+Whale 1:  e3  F4.
+
+(No vocalizations, 15 seconds)
+
+Whale 2:  g1 \G1 /g1 \g1  g2  d1  f3 /f3.
+In chorus, whales 2, 3: \f3  f5.
+Whale 2:  f3  f5.
+In chorus, whales 2, 3: /f5 \f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f5.
+
+(No vocalizations, 15 seconds)
+
+In chorus, whales 1, 2:  f5 /f5.
+Whale 2: \f5  f4.
+Whale 1:  f5 -f5 \F5.
+Whale 2:  e3.
+In chorus, whales 1, 2:  e3  B3.
+In chorus, whales 1, 2:  f5  e3.
+In chorus, whales 1, 2:  C3  e3.
+Whale 1:  B1.
+In chorus, whales 1, 2:  e3 -e3.
+In chorus, whales 1, 2:  b1  e3.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 2:  B3  e3.
+
+(No vocalizations, 10 seconds)
+
+Whale 1:  B3.
+Whale 2:  e3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  F5.
+In chorus, whales 1, 2, 3, 4:  e3  e3  F5  f3.
+Whale 2:  g4  f3 \f3  f4  a3  b1 /b1.
+
+(No vocalizations, 15 seconds)
+
+Whale 2:  f5  a3  a1  f3 \f3.
+
+(No vocalizations, 35 seconds)
+
+Whale 2:  c3  d1  c3  b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f4  f3 \f3.
+
+(No vocalizations, 5 minutes)
+
+Whale 2:  f3.
+In chorus, whales 1, 2: -f3 -f3.
+In chorus, whales 1, 2: /f3  c2.
+In chorus, whales 1, 2: /f3 -f3.
+Whale 1: -f3.
+Whale 2:  g2.
+In chorus, whales 1, 2:  f4  f5.
+Whale 1:  e3  b3.
+In chorus, whales 1, 2:  b1  F5.
+Whale 2:  f5 \f5 \f5 -f5 -F5.
+In chorus, whales 1, 3:  E3  g2.
+Whale 2:  f5.
+In chorus, whales 1, 2, 3:  e3 /F5  b1.
+In chorus, whales 1, 2, 3: /b1  F5 \b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f4  c3  b1  C2  b1  f3 -f3 /f3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  c3  b1  c3  d1  c3  D1  e3  d1  b1  F3 \F3 /F3  E2  c2.
+
+(No vocalizations, 35 seconds)
+
+Whale 1:  f5.
+In chorus, whales 1, 2: \f5  d4.
+In chorus, whales 1, 2, 3:  f4 \d4  f5.
+
+(No vocalizations, 3 minutes)
+
+Whale 1:  i1.
+In chorus, whales 1, 2: \i1  d4.
+Whale 1:  b1 /B1  m1  d1.
+In chorus, whales 1, 2:  b1  d3.
+Whale 1: /b1  d1 -d1 -d1 -d1  b1 /B1  f3.
+In chorus, whales 1, 2: \f3  d3.
+In chorus, whales 1, 2:  f5 \d3.
+Whale 2:  d4.
+
+(No vocalizations, 45 seconds)
+
+In chorus, whales 1, 2:  f4 -d4.
+Whale 3:  g1  D1.
+Whale 2:  b1.
+In chorus, whales 2, 3:  a1  f3.
+In chorus, whales 2, 3:  c2  D3.
+In chorus, whales 2, 3:  g3  a1.
+Whale 3:  b2  b1  i1 -I1  b1  b2.
+In chorus, whales 2, 3:  f3  a1.
+In chorus, whales 2, 3:  D3  c2.
+Whale 2:  b1 \b1.
+In chorus, whales 1, 2, 3:  f4  g3 -g3.
+Whale 2:  g3  b2  b1  f3.
+In chorus, whales 2, 3:  g1 \g1.
+In chorus, whales 2, 3:  B1  g1.
+Whale 2: -D1.
+Whale 4:  f3 \F3.
+In chorus, whales 1, 2, 3, 4, 5: /f3  f3  f4  c2  d1.
+In chorus, whales 1, 2, 3: -f3  f3  e3.
+In chorus, whales 1, 2: -f3  f4.
+Whale 2:  f4 -f4  F5.
+In chorus, whales 1, 2:  E3  f5.
+Whale 2:  f5 -f5 -f5 -f5.
+In chorus, whales 1, 2, 3, 4:  F5 /f5  d1 -f5.
+In chorus, whales 2, 3, 4:  g3  f5  D3.
+Whale 1:  b3.
+In chorus, whales 1, 2, 3, 4:  b1  f3  f5  f5.
+Whale 1:  f5.
+In chorus, whales 1, 2, 3:  f4  d3 /d3.
+Whale 2:  F5  e3  g3  b2  a1.
+In chorus, whales 1, 2:  f5  f4.
+Whale 1: \f5.
+In chorus, whales 1, 2: \F5  e3.
+Whale 2:  e2  f4  C1  f3.
+In chorus, whales 2, 3: \F3  f5.
+Whale 2:  f3 /f3 \f3  f5 -f5  f4 -F4  c2.
+In chorus, whales 2, 3:  C3  f4.
+In chorus, whales 2, 3:  C3  F4.
+Whale 2:  e2.
+In chorus, whales 2, 3:  a3  f4.
+Whale 2:  B1.
+In chorus, whales 2, 3:  e3  f4.
+Whale 2:  f5  C4  f4 /F4  c2  f4  f5  F3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  b3  f3  d1 /D1  b1  i1 \i1 -i1  B1  n1  d1  B1  n1 /N1  c1  b1 -b1 -b1 /B1 -b1 -b1  a1  B1  g1  b1 -b1 -b1 -b1 -b1 -b1 -b1  n1  i1 -i1  j1  d1  B1  d1 /d1 -d1 /d1  B1  g1 \g1 -g1  d1 -d1  b1  i1 -I1  g3  b1  a2  b1  n1  a1 /A1  g3  f3 \f3  b2  b1  i1  J1  g1 \g1 /g1 /g1  A1  b1  A1  F3  e1  d1  A1  b1  A1  c2  p1  l1 /l1  g3  n1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  g1  D1  B1 /b1 /b1 \b1  F3.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 2, 3:  c3  f5.
+Whale 3:  b2  b1.
+Whale 2:  c2  f5.
+In chorus, whales 2, 3, 4:  f4  g3 -f3.
+Whale 2:  F3  c2  d5.
+
+(No vocalizations, 25 seconds)
+
+Whale 3:  d5 \d5.
+Whale 2:  c4.
+In chorus, whales 2, 3:  f4  d4.
+In chorus, whales 2, 3: -f4  d4.
+In chorus, whales 2, 3, 4:  F4  d4  F5.
+Whale 3:  E2 \E2  c2  e3.
+
+(No vocalizations, 20 seconds)
+
+In chorus, whales 2, 3:  D5  b1.
+In chorus, whales 2, 3: \d5  e3.
+Whale 3:  b1.
+Whale 2:  d5 \d5.
+In chorus, whales 2, 3: /d5  f5.
+In chorus, whales 2, 3:  d5 /f5.
+Whale 3:  f5 \f5.
+Whale 2:  d5 \d5.
+
+(No vocalizations, 15 seconds)
+
+Whale 2:  f5 \f5.
+Whale 3:  c4.
+In chorus, whales 2, 3:  f5  B1.
+Whale 3:  e3.
+In chorus, whales 2, 3:  f5  d2.
+Whale 3:  J1  B1  i1 \i1  j1  b1 /b1.
+Whale 2:  d5.
+In chorus, whales 1, 2, 3:  c2  d4  f4.
+Whale 1:  g2.
+In chorus, whales 1, 2, 3:  f3 /f3 -f3.
+In chorus, whales 1, 2, 3, 4:  F3  f4  d3  D1.
+
+(No vocalizations, 10 minutes)
+
+Whale 3:  g1 /g1  f1.
+Whale 2:  G1.
+In chorus, whales 1, 2, 3:  C2  f1  d1.
+Whale 1: \c2  b2  a1  f3.
+Whale 3:  a1 \a1.
+In chorus, whales 1, 3:  f3  b1.
+Whale 3: \g1.
+In chorus, whales 2, 3: \g1 /g1.
+Whale 3: -g1.
+In chorus, whales 2, 3:  C1  g1.
+In chorus, whales 2, 3: \B1  f1.
+Whale 2:  G1  d1.
+In chorus, whales 2, 3:  f1  g1.
+Whale 2:  a1  b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 4:  G1.
+
+(No vocalizations, 10 seconds)
+
+Whale 5:  g1.
+
+(No vocalizations, 10 seconds)
+
+Whale 5:  q1  B1  o1  b1  i1  D1.
+
+(No vocalizations, 10 seconds)
+
+Whale 5:  i1  d1.
+
+(No vocalizations, 20 seconds)
+
+Whale 2:  g1.
+
+(No vocalizations, 40 minutes)
+
+Whale 2:  c5  b1  c4  D1.
+
+(No vocalizations, 10 minutes)
+
+Whale 1:  F1  a1  b1  f1.
+
+(No vocalizations, 10 seconds)
+
+Whale 1:  C1  b1  a1  g1.
+
+(No vocalizations, 15 seconds)
+
+Whale 1:  a1.
+In chorus, whales 1, 2:  b1  a1.
+In chorus, whales 1, 2:  g1 -a1.
+Whale 2:  a1 -a1.
+
+
+Sequence ID: 22
+In chorus, whales 1, 3:  f5  d1.
+Whale 1:  f3.
+In chorus, whales 1, 2:  g3  f3.
+Whale 1: /F3.
+In chorus, whales 1, 2:  F4  f3.
+Whale 1:  c3  b1.
+In chorus, whales 1, 2:  f4  f3.
+Whale 1:  f5.
+
+(No vocalizations, 15 seconds)
+
+In chorus, whales 1, 2:  f5 \F5.
+Whale 2: \f5.
+
+(No vocalizations, 15 seconds)
+
+In chorus, whales 1, 2: \f5  f5.
+Whale 2: -f5.
+In chorus, whales 1, 2:  a3 \f5.
+In chorus, whales 1, 2:  B1  f5.
+Whale 1:  b3  b1.
+Whale 2:  f5 -f5 /f5.
+Whale 1:  a3  A1.
+In chorus, whales 1, 2:  B1  e3.
+Whale 1:  a3  b1 -b1 /b1  a3  b1 /b1 /b1.
+
+
+Sequence ID: 23
+Whale 2:  c4  B1  c4  b1 /b1.
+Whale 3:  k5  b1.
+Whale 2:  C4  b1.
+
+
+Sequence ID: 24
+Whale 2:  F5  d1 \D1  b1 /b1  I2  f3 -f3  b1 \b1.
+
+
+Sequence ID: 25
+Whale 1:  h1  D1  o3  b1  a1  b1 /b1  p3  n2  i1  d1.
+In chorus, whales 1, 2:  F3  d1.
+Whale 1:  b2  b1  f3  b2  b1  B2.
+Whale 2:  d1.
+In chorus, whales 1, 2:  a1  b1.
+Whale 2: -b1 -b1  a1  b1 /b1 /B1  i1 -i1  b1 /b1.
+In chorus, whales 1, 2:  f3 /b1.
+Whale 2:  d1 /d1 -d1 -d1  b1.
+In chorus, whales 1, 2, 3, 4:  f3 /B1  g2  g2.
+In chorus, whales 1, 2, 4:  B2 /d1  d1.
+In chorus, whales 1, 4:  b1  e3.
+In chorus, whales 1, 2, 3, 4:  F3  c3 \e3  d1.
+Whale 3:  f5.
+Whale 4:  c3.
+In chorus, whales 1, 3, 4:  f5 /f5  A1.
+Whale 4:  f3.
+In chorus, whales 1, 4, 6: \f5  f5 /f5.
+Whale 7:  e3  c1.
+Whale 1:  a3.
+In chorus, whales 1, 8:  b1  f5.
+In chorus, whales 1, 8:  a3  f5.
+Whale 1:  b1 /b1.
+In chorus, whales 1, 9: /b1  f5.
+Whale 1:  a3  b1 /b1 /B1.
+Whale 10:  f5.
+
+
+Sequence ID: 26
+Whale 2:  G1  d1.
+In chorus, whales 2, 3: \D1 -d1.
+In chorus, whales 2, 3: -d1 \D1.
+In chorus, whales 2, 3:  d1  F3.
+Whale 2: /f3.
+
+
+Sequence ID: 27
+Whale 2:  f5 \f5 /f5.
+
+
+Sequence ID: 28
+Whale 2:  g2.
+In chorus, whales 1, 2:  f4  f3.
+Whale 1: -f3.
+In chorus, whales 1, 2: /f3 /f3.
+Whale 1:  g3.
+In chorus, whales 1, 2:  b1  f4.
+Whale 1:  b2.
+In chorus, whales 1, 2:  b1  f4.
+Whale 1:  f3 -f3.
+Whale 2:  f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 2: /f5.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 2: /F5  f5.
+In chorus, whales 1, 2: /E3  f5.
+In chorus, whales 1, 2: /F5  e3.
+Whale 1:  c4  d1  B1.
+Whale 2:  e2  d1.
+Whale 1:  f5.
+
+
+Sequence ID: 29
+In chorus, whales 1, 2:  f5 \f5.
+Whale 2: \f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f5.
+Whale 1: -f5 /f5 -f5.
+Whale 3: \f5 -f5 /f5 /f5 /f5 -f5 /f5.
+Whale 1: \f5 /f5.
+In chorus, whales 1, 4: /f5 /f5.
+Whale 1: \f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 1:  f5.
+Whale 4: /f5 -f5.
+Whale 3: \f5 -f5.
+Whale 4: /f5 -f5.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 4:  f5 -f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 4:  f5.
+In chorus, whales 1, 4:  f5  d5.
+Whale 4: /f5.
+In chorus, whales 1, 4: \f5 -f5.
+Whale 4: -f5.
+In chorus, whales 1, 4: \f5 -f5.
+In chorus, whales 1, 4: \f5 /F5.
+Whale 1: \f5.
+
+
+Sequence ID: 30
+Whale 1:  i1  b1  i1  B1  i1  b1  p2.
+
+
+Sequence ID: 31
+Whale 2:  g2  F5  D1 -d1  b1 /B1  j2.
+
+
+Sequence ID: 32
+Whale 1:  g3  d4  g5.
+
+
+Sequence ID: 33
+Whale 1:  n3  i1 /I1.
+
+
+Sequence ID: 34
+Whale 2:  g2  f5  F4  D1 -d1  b1 /B1  j2.
+Whale 1:  f3 -f3  b1 \b1.
+
+
+Sequence ID: 35
+Whale 2:  h1  d1  b1.
+
+
+Sequence ID: 36
+Whale 2:  f3.
+In chorus, whales 2, 3, 4: -f3 -f3  G2.
+.
+
+
+Sequence ID: 37
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 2, 3:  f3  f3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  c3  A1.
+
+
+Sequence ID: 38
+Whale 2:  j1  i1  d1  b1 -b1 /b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f5.
+Whale 3:  b1 /b1 /b1.
+
+
+Sequence ID: 39
+Whale 2:  f5.
+Whale 3:  a3  b1 /b1 /B1.
+
+
+Sequence ID: 40
+Whale 2:  F4 \f4  f3 \f3.
+
+
+Sequence ID: 41
+In chorus, whales 1, 2:  b2  f3.
+Whale 1:  b1  f3.
+Whale 2: /f3  b1  A1  b1  a1  b1.
+In chorus, whales 2, 3:  a1  f3.
+Whale 1:  b2  b1.
+In chorus, whales 1, 2, 3:  g3  f3 -f3.
+Whale 2:  d1.
+In chorus, whales 1, 2:  f3  c1.
+Whale 3: -f3.
+
+
+Sequence ID: 42
+Whale 1:  G1  d1  g1 -g1  g3 \G3.
+In chorus, whales 1, 2:  c2  g1.
+.
+
+
+Sequence ID: 43
+In chorus, whales 1, 2:  D1  g1.
+In chorus, whales 1, 2:  a1  g1.
+Whale 1:  g1.
+
+
+Sequence ID: 44
+Whale 2:  f1.
+
+
+Sequence ID: 45
+Whale 1:  d1  b1  p1.
+
+
+Sequence ID: 46
+Whale 2:  f5.
+
+
+Sequence ID: 47
+Whale 4:  f5 -f5 \F5  e3  f5  f4.
+In chorus, whales 3, 4:  e3  F3.
+Whale 4:  f3.
+In chorus, whales 3, 4:  f4 -f3.
+Whale 4:  F3.
+In chorus, whales 3, 4:  f4 -f3.
+Whale 4:  f3.
+In chorus, whales 3, 4:  f5 -f3.
+In chorus, whales 3, 4: \f5  f3.
+In chorus, whales 3, 4:  f5 /f3.
+In chorus, whales 3, 4: /f5  f3.
+Whale 4: \f5.
+In chorus, whales 3, 4: /F5 /f5.
+In chorus, whales 3, 4: \F5  c3.
+Whale 4:  c3  b1.
+Whale 3:  f5.
+
+
+Sequence ID: 48
+Whale 2:  f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 2: /f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 2: /f5 \f5.
+Whale 1: \f5.
+
+
+Sequence ID: 49
+Whale 2:  e3  f4 /f4.
+
+
+Sequence ID: 50
+Whale 1:  f5 -f5.
+
+
+Sequence ID: 51
+Whale 2:  c5  b1  c4  d2.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  b1.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  B1 /b1 \B1  a1  b1.
+Whale 1:  i2  b1  a1  B1 -b1  a1.
+In chorus, whales 1, 2:  b1  d1.
+Whale 2: \d1 -d1  b1 /b1 /b1.
+Whale 1:  i1  d1  i1.
+In chorus, whales 1, 2:  J1  f4.
+Whale 1:  B1  c2  F3.
+Whale 2:  l1  i1  d1  b1 /b1.
+Whale 1:  F3.
+In chorus, whales 1, 2:  b2  l1.
+Whale 2:  d1  b1.
+In chorus, whales 1, 2:  g3 /B1.
+Whale 2:  i1  d1  b1 /b1.
+Whale 1:  b2  b1.
+In chorus, whales 1, 2:  a2  f4.
+Whale 1:  a1  b2  a1.
+In chorus, whales 1, 2:  f3  f4.
+Whale 1: -f4 /f4.
+Whale 2:  l1  i1  d1  b1.
+In chorus, whales 1, 2:  f4 /B1.
+Whale 2:  i1  d1  b1 /b1 /b1.
+Whale 1:  f4.
+In chorus, whales 1, 2: -f4  n1.
+Whale 2:  g1  d1  B1  a1.
+Whale 1:  f4  f5 -f5.
+
+
+Sequence ID: 52
+In chorus, whales 1, 2:  f5  h3.
+Whale 2:  e3.
+In chorus, whales 1, 2: /f5  f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: /F5  e3.
+Whale 1:  f5.
+In chorus, whales 1, 2: /f5 \f5.
+Whale 1:  f5 -f5 -f5 \f5 -f5 \f5 /f5 -f5 -F5  e3  b1  f5.
+Whale 2:  l1  i1  d1  b1.
+In chorus, whales 1, 2:  f5 /b1.
+Whale 2:  l1  i1  d1  b1 /b1.
+In chorus, whales 1, 2:  f5 /b1.
+.
+
+
+Sequence ID: 53
+Whale 2:  g1  b1  I1.
+Whale 1: -i1  d1 -d1 \d1  b1  p1  g1  D1.
+
+
+Sequence ID: 54
+Whale 1:  g2 -g2 -g2.
+
+
+Sequence ID: 55
+Whale 1:  f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5 -F5.
+Whale 2:  e3  F5  e3.
+Whale 1:  f5.
+
+
+Sequence ID: 56
+In chorus, whales 1, 2:  f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: -F5  e3.
+Whale 2:  e3.
+
+
+Sequence ID: 57
+Whale 1:  f5.
+In chorus, whales 1, 2: -F5  e3.
+Whale 2:  e3.
+
+
+Sequence ID: 58
+Whale 2:  f5 -f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 2: /f5.
+In chorus, whales 1, 2: \f5 /f5.
+Whale 1: \f5.
+
+
+Sequence ID: 59
+Whale 2:  f5.
+In chorus, whales 1, 2: \f5 \f5.
+Whale 1: /f5 -f5 /f5 /f5.
+
+
+Sequence ID: 60
+Whale 2:  f5 \f5 \f5 /f5.
+
+
+Sequence ID: 61
+In chorus, whales 1, 2:  f5  b3.
+Whale 2:  b3.
+In chorus, whales 1, 2:  F5  b1.
+Whale 2:  E3.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 2:  F5 -e3.
+Whale 1:  f5.
+In chorus, whales 1, 2: -f5  h3.
+Whale 2: -h3 -h3.
+Whale 1:  f5 -f5 /f5 \f5.
+
+
+Sequence ID: 62
+Whale 2:  f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 2: /f5.
+In chorus, whales 1, 2:  c4 \f5.
+In chorus, whales 1, 2:  B1  f5.
+Whale 1:  b1.
+In chorus, whales 1, 2: /B1  F5.
+Whale 1:  e3  b1.
+Whale 2:  f5.
+
+
+Sequence ID: 63
+In chorus, whales 1, 2:  d1  G1.
+Whale 1:  d1.
+In chorus, whales 1, 2:  g2  g1.
+.
+
+
+Sequence ID: 64
+Whale 1:  g2 -G2  d1.
+
+
+Sequence ID: 65
+Whale 1:  g2 -g2.
+
+
+Sequence ID: 66
+Whale 2:  i2  i1 -i1  I2  b1  d1.
+In chorus, whales 1, 2:  g2 -d1.
+Whale 1: -D1 -D1.
+In chorus, whales 1, 2: /d1  f3.
+In chorus, whales 1, 2: \f3 /f3.
+Whale 1:  b1  f3  b2  b1  b2  b1.
+In chorus, whales 1, 2:  d1  F3.
+In chorus, whales 1, 2:  a1 -g2.
+Whale 1:  b1.
+In chorus, whales 1, 2:  a1  f3.
+Whale 2:  b2  b1  f5.
+In chorus, whales 1, 2:  F5  c5.
+Whale 1: \F5  E3.
+Whale 3:  D1 -D1.
+In chorus, whales 1, 3:  F5 -d1.
+Whale 2:  f5 -F5.
+Whale 3:  e3  F4.
+Whale 2:  e3.
+In chorus, whales 1, 2, 3:  f5  f5  f4.
+In chorus, whales 1, 3: /F5  e3.
+Whale 3: \F5.
+In chorus, whales 1, 3:  f5  E3.
+Whale 1:  e3  b1.
+In chorus, whales 1, 3:  c4  a3.
+In chorus, whales 1, 3:  B1  a2.
+Whale 1:  c4  b1.
+In chorus, whales 1, 3: /B1  f5.
+In chorus, whales 1, 3: /f5  l1.
+Whale 3:  d1  b1 /b1.
+In chorus, whales 1, 3:  f4 \b1.
+Whale 3:  l1  i1  d1.
+In chorus, whales 1, 3:  F4  a1.
+In chorus, whales 1, 3:  f4  B1.
+Whale 1:  f4.
+
+
+Sequence ID: 67
+In chorus, whales 1, 2:  D1 \d1.
+Whale 1:  g2.
+In chorus, whales 1, 2: \G2  d1.
+In chorus, whales 1, 2:  G2  D1.
+In chorus, whales 1, 2: \D1 /d1.
+In chorus, whales 1, 2:  f3 -D1.
+In chorus, whales 1, 2:  F3  c3.
+.
+
+
+Sequence ID: 68
+In chorus, whales 1, 2:  f5 -f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: -f5  b3.
+In chorus, whales 1, 2:  F5  b1.
+Whale 2:  b3.
+In chorus, whales 1, 2:  f5  b1.
+Whale 3: -f5  e3  f5 -f5.
+
+
+Sequence ID: 69
+In chorus, whales 1, 2:  f5 \f5.
+Whale 2:  b3.
+In chorus, whales 1, 2:  f5  b1.
+Whale 2: \f5 /f5.
+
+
+Sequence ID: 70
+Whale 1:  F5.
+In chorus, whales 1, 2: \f5  e3.
+Whale 1:  f5.
+In chorus, whales 1, 2: \f5 \f5.
+Whale 2:  e3  f5.
+In chorus, whales 1, 2: \f5 \f5.
+Whale 2: /f5 -f5.
+In chorus, whales 1, 2: \f5 \f5.
+Whale 2: /f5 /f5.
+
+
+Sequence ID: 71
+Whale 1:  f5 -f5.
+
+
+Sequence ID: 72
+Whale 1:  i1  b1  i1  b1 -b1  a1  b1 /b1  G1  b1.
+
+
+Sequence ID: 73
+In chorus, whales 1, 2:  f5 /f5.
+Whale 1: \f5 -f5 -f5 -f5 /f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5.
+
+
+Sequence ID: 74
+In chorus, whales 1, 2: \f5  f5.
+Whale 1: \f5 /F5.
+Whale 2:  e3.
+In chorus, whales 1, 2: \f5  f5.
+Whale 2: /f5 /f5 -f5.
+Whale 1: \f5 -f5 /f5 /f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -F5  d1  b1.
+
+
+Sequence ID: 75
+Whale 1:  r3.
+
+
+Sequence ID: 76
+In chorus, whales 1, 2: \f5  f5.
+Whale 3: /f5 /f5 /f5.
+In chorus, whales 3, 4: \f5 \f5.
+Whale 3: /f5.
+In chorus, whales 3, 4: \f5 \f5.
+Whale 4: -f5.
+
+
+Sequence ID: 77
+Whale 2:  f5.
+Whale 1: \f5 -f5.
+Whale 2: /f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 1: \f5 /f5.
+
+
+Sequence ID: 78
+Whale 1:  P1  L1 -l1  n1.
+
+
+Sequence ID: 79
+In chorus, whales 1, 2, 4:  g1  g2  g2.
+Whale 1:  G1  c1  g1.
+
+
+Sequence ID: 80
+Whale 1:  i1  b1 \b1 \b1.
+In chorus, whales 1, 2: -b1  g2.
+Whale 1: -G2.
+In chorus, whales 1, 2:  D1 -d1.
+Whale 1:  g2  f4.
+Whale 2:  f5 -f5.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 2: \f5  f5.
+Whale 2: /f5 \f5.
+Whale 1:  f4 /f4  f5 /f5 /f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: -f5 \f5.
+Whale 1: /f5.
+
+
+Sequence ID: 81
+Whale 4:  f5 -f5.
+In chorus, whales 4, 5: \f5 -f5.
+Whale 5: /f5.
+In chorus, whales 3, 4, 5: \f5 \f5 /f5.
+Whale 3: /f5 -f5 \f5 -f5 \F5  e3  f5 /f5 -f5 /f5 -f5 \f5 \f5 -f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 5:  F5  c4  b1.
+
+
+Sequence ID: 82
+Whale 1:  f5 \f5 -f5 -f5 /f5 -f5.
+
+
+Sequence ID: 83
+Whale 2:  f5 -f5 /F5.
+Whale 1:  e3  f5 -f5 /f5 /f5 -f5 -f5 -f5 /f5.
+
+
+Sequence ID: 84
+Whale 2:  b3  b1.
+In chorus, whales 1, 2:  f5 /b1.
+Whale 2:  b3  b1.
+In chorus, whales 1, 2:  f5 /b1.
+Whale 2:  b1 /B1.
+Whale 1:  f5.
+
+
+Sequence ID: 85
+Whale 2:  f4  f5 /f5.
+Whale 1: \f5 -F5.
+Whale 2:  e3.
+In chorus, whales 1, 2:  f5  b1.
+Whale 2:  C4  b1.
+
+
+Sequence ID: 86
+Whale 2:  p1  i1  d1  p1  n1 /n1  i1  b1.
+
+
+Sequence ID: 87
+Whale 2:  d1  g2 -g2 -g2 -g2 -g2 -g2.
+
+
+Sequence ID: 88
+Whale 2:  m3  l2  k3  i1  D1.
+Whale 3:  E1  b1.
+Whale 2:  c1  d1.
+In chorus, whales 2, 3: -D1  e1.
+Whale 2:  M3  L2.
+Whale 3:  c1  D1.
+Whale 2:  q2.
+In chorus, whales 2, 3:  b1  f4.
+Whale 2: -i1  j1.
+In chorus, whales 2, 3:  b1  f4.
+Whale 2: -i1  d1  b1 /B1  f4.
+Whale 1: -f4 /f4.
+In chorus, whales 1, 2, 3: \f4  g2 \d1.
+In chorus, whales 1, 2:  f5 /g2.
+Whale 1:  e3  c4.
+In chorus, whales 1, 2:  f5 \f5.
+Whale 2: \f5 -f5.
+
+
+Sequence ID: 89
+Whale 3:  f5.
+In chorus, whales 3, 4: \f5 /f5.
+Whale 3: \f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 3:  f5 -f5.
+Whale 4: -f5.
+In chorus, whales 3, 4: \f5 /f5.
+.
+
+
+Sequence ID: 90
+Whale 2:  f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 1: \f5 /f5 /f5.
+
+
+Sequence ID: 91
+In chorus, whales 1, 2:  f1  g2.
+Whale 1:  g1.
+
+
+Sequence ID: 92
+Whale 2:  g2 -g2.
+Whale 1:  D1  g1 -g1 -g1 -g1.
+
+
+Sequence ID: 93
+Whale 2:  f5.
+In chorus, whales 1, 2: /f5 \f5.
+Whale 1: /f5 /f5.
+Whale 2: \f5.
+In chorus, whales 1, 2: \f5 /f5.
+In chorus, whales 1, 2: \f5 -f5.
+In chorus, whales 1, 2:  e3 -f5.
+Whale 2:  f5 -f5.
+Whale 1: -f5 -f5 -f5 -F5.
+
+(No vocalizations, 15 seconds)
+
+Whale 3:  e3  b1  c4  D2.
+
+
+Sequence ID: 94
+Whale 2:  o1  d1 \d1  B1  g1  d1  b1  g1  D1.
+
+
+Sequence ID: 95
+Whale 2:  g2.
+In chorus, whales 1, 2:  g1 -g2.
+In chorus, whales 1, 2:  g1 /g2.
+In chorus, whales 1, 2:  d1  G2.
+In chorus, whales 1, 2:  g1 -g2.
+In chorus, whales 1, 2: -g1  g2.
+Whale 2: -g2 -g2 -g2 -g2 -g2 -g2.
+
+
+Sequence ID: 96
+Whale 2:  m3  N3  e1  d1 -d1 -d1 /d1  b1 /B1.
+Whale 3:  e1  d1.
+In chorus, whales 2, 3:  i2 /d1.
+Whale 3: /d1.
+In chorus, whales 1, 2, 3:  f4  b1 /D1.
+In chorus, whales 1, 2: \f4  f5.
+In chorus, whales 1, 2: \f4 /f4.
+Whale 2:  e1.
+In chorus, whales 1, 2:  f4  d1.
+Whale 2: /d1  b1 /b1.
+Whale 1:  f4 /f4.
+Whale 2:  n1  i1  d1  b1.
+In chorus, whales 1, 2:  f4 /b1.
+In chorus, whales 1, 2: /f4  i1.
+Whale 2: -i1  j1  b1 /B1.
+In chorus, whales 1, 2:  f5  f4.
+Whale 2:  f4  f3  b1.
+
+
+Sequence ID: 97
+Whale 3:  f5.
+Whale 4: \f5.
+In chorus, whales 3, 4: \f5 /f5.
+Whale 3: \f5.
+In chorus, whales 3, 4: /f5 \f5.
+Whale 4: /f5 /f5 /f5.
+In chorus, whales 3, 4: \f5 \f5.
+Whale 4: /f5.
+In chorus, whales 3, 4: \f5 \f5.
+Whale 3: -f5.
+
+
+Sequence ID: 98
+Whale 2:  f5.
+Whale 1: \f5 -f5.
+Whale 2: /f5.
+In chorus, whales 1, 2: \f5 -f5.
+Whale 1: \f5 /f5.
+
+
+Sequence ID: 99
+Whale 2:  P1  L1 -l1  n1.
+
+
+Sequence ID: 100
+Whale 2:  g2.
+In chorus, whales 1, 2:  G2  d1.
+Whale 2:  c1  G1  c1  g1.
+
+
+Sequence ID: 101
+Whale 2:  f5.
+In chorus, whales 2, 3: \f5 \f5.
+Whale 4: /f5.
+In chorus, whales 3, 4: \f5 -f5.
+Whale 4: /f5 -f5 \f5 -f5 \F5  e3  f5 /f5 -f5.
+Whale 3: /f5 -f5 \f5 \f5 -f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 3:  F5  c4  b1.
+
+
+Sequence ID: 102
+Whale 2:  f5 \f5 -f5 -f5 /f5 -f5.
+
+
+Sequence ID: 103
+Whale 2:  f5 -f5.
+In chorus, whales 2, 3:  D5  e3.
+Whale 3: -f5 /f5.
+Whale 2: /f5 -f5 -f5 -f5 /f5.
+
+
+Sequence ID: 104
+Whale 2:  b3  b1.
+In chorus, whales 2, 3: /b1  f5.
+Whale 2:  b3  b1.
+In chorus, whales 2, 3: /b1  f5.
+Whale 2:  b1 /B1.
+Whale 3:  f5.
+
+
+Sequence ID: 105
+Whale 2:  i1  j1  d1  b1.
+In chorus, whales 2, 3: /b1  f4.
+Whale 3: \f4 /f4.
+Whale 2:  f5 /f5.
+Whale 3: \f5 -F5.
+Whale 2:  e3.
+In chorus, whales 2, 3:  b1  f5.
+Whale 2:  C4  b1.
+
+
+Sequence ID: 106
+Whale 1:  p1  i1  d1  p1  n1 /n1  i1  b1.
+
+
+Sequence ID: 107
+Whale 1:  d1  g2 -g2 -g2 -g2 -g2 -g2.
+
+
+Sequence ID: 108
+Whale 2:  m3  l2  c1  d1 \d1 /d1  B1  e1  B1  c1  d1.
+In chorus, whales 2, 3: -D1  e1.
+Whale 2:  M3  L2.
+Whale 3:  c1  D1  q2  b1.
+In chorus, whales 2, 3:  N1  f4.
+Whale 2: -n1.
+In chorus, whales 2, 3:  b1  f4.
+Whale 2: -I1  d1  b1.
+In chorus, whales 2, 3: /b1  f4.
+Whale 2: -f4 /f4.
+In chorus, whales 2, 3: \f4  g2.
+Whale 2: /g2  f5.
+In chorus, whales 2, 3: -f5 \f5.
+Whale 2: \f5 -f5.
+
+
+Sequence ID: 109
+Whale 2:  f5.
+In chorus, whales 2, 3: \f5 /f5.
+Whale 2: \f5.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f5 -f5.
+Whale 3: -f5.
+In chorus, whales 2, 3: \f5 /f5.
+.
+
+
+Sequence ID: 110
+Whale 2:  f5.
+In chorus, whales 2, 3: -f5 \f5.
+Whale 3: \f5 /f5 /f5.
+
+
+Sequence ID: 111
+In chorus, whales 1, 2:  f1  g2.
+Whale 1:  g1.
+
+
+Sequence ID: 112
+Whale 1:  g2 -g2.
+Whale 2:  D1  g1 -g1 -g1 -g1.
+
+
+Sequence ID: 113
+Whale 2:  f5.
+In chorus, whales 2, 3: \f5 /f5.
+Whale 3: /f5 /f5.
+Whale 2: \f5.
+In chorus, whales 2, 3: /f5 \f5.
+In chorus, whales 2, 3: -f5 \f5.
+In chorus, whales 2, 3: -f5  e3.
+Whale 2:  f5 -f5 -f5 -f5 -f5 -f5.
+
+
+Sequence ID: 114
+Whale 2:  e3  b1  c4  D2.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  c1  d1 -d1 -d1.
+In chorus, whales 2, 3:  B1  f5.
+Whale 2:  f3.
+In chorus, whales 2, 3:  B1  f5.
+Whale 2: /F5  j4.
+
+
+Sequence ID: 115
+Whale 2:  o1  d1 \d1  B1  g1  d1  b1  g1  D1.
+
+
+Sequence ID: 116
+Whale 2:  G2.
+In chorus, whales 2, 3:  d1  g1.
+In chorus, whales 2, 3:  g2  g1.
+In chorus, whales 2, 3:  G2  d1.
+In chorus, whales 2, 3: -g2  g1.
+In chorus, whales 2, 3:  g2 -g1.
+Whale 2: -g2 -g2 -g2 -g2 -g2 -g2.
+
+
+Sequence ID: 117
+Whale 2:  F4.
+Whale 1:  q1  B1.
+In chorus, whales 1, 2:  Q2  Q1.
+In chorus, whales 1, 2:  D1 /b1.
+Whale 1: \g1  d1  B1  F4.
+Whale 2:  c1  d1 -d1.
+In chorus, whales 1, 2:  f4  a1.
+Whale 2:  i1 -i1.
+In chorus, whales 1, 2:  f4  j1.
+Whale 2: /b1  i1 -i1.
+In chorus, whales 1, 2:  f4  d1.
+In chorus, whales 1, 2:  f4 /B1.
+Whale 2:  i1 -i1  j1  d1.
+In chorus, whales 1, 2:  F4  b1.
+Whale 2:  i1 -i1  j1  b1.
+In chorus, whales 1, 2:  f4 /b1.
+.
+
+
+Sequence ID: 118
+Whale 3:  f5.
+In chorus, whales 1, 2, 3: /f5 \f5 \f5.
+Whale 2: /f5.
+
+
+Sequence ID: 119
+Whale 2:  h3 \h3 -h3 -H3  d3  h3.
+
+
+Sequence ID: 120
+Whale 2:  H3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  B2.
+
+
+Sequence ID: 121
+Whale 2:  a3  b1  b2.
+
+
+Sequence ID: 122
+Whale 2:  Q1  p1  b1 /b1  i1 -i1  j1  b1 /b1  i1.
+In chorus, whales 1, 2: /i1 -i1.
+Whale 1:  i1 \i1  d1  b1.
+
+
+Sequence ID: 123
+Whale 1:  b1  a1  b1  a1 \a1  g1  a1 \a1.
+Whale 2:  g1.
+In chorus, whales 1, 2:  a1 -g1.
+Whale 1:  b1  a1.
+In chorus, whales 1, 2:  b1  g1.
+In chorus, whales 1, 2: \b1  g1.
+Whale 1:  b1  g1.
+
+
+Sequence ID: 124
+Whale 1:  g1 -g1 -g1 -g1 -g1 -g1.
+
+
+Sequence ID: 125
+Whale 2:  g1 -g1.
+In chorus, whales 1, 2: /g1 -g1.
+Whale 1:  a1.
+In chorus, whales 1, 2: \a1  g1.
+Whale 1:  a1 \a1 /a1  b1.
+
+
+Sequence ID: 126
+Whale 2:  g1 -g1.
+
+
+Sequence ID: 127
+Whale 2:  g1  b1  I1  g1 -g1 -g1 -g1.
+
+
+Sequence ID: 128
+Whale 2:  g1.
+Whale 1: /g1.
+In chorus, whales 1, 2: -g1 \g1.
+.
+
+
+Sequence ID: 129
+In chorus, whales 1, 2:  a1  c1.
+In chorus, whales 1, 2:  g1 -g1.
+In chorus, whales 1, 2: -g1 -g1.
+Whale 1: -g1.
+
+
+Sequence ID: 130
+Whale 2:  b1  a1  b1  a1 \a1  g1  a1 \a1.
+Whale 1:  g1.
+In chorus, whales 1, 2: -g1  a1.
+Whale 2:  b1  a1  b1.
+Whale 1: /B1.
+In chorus, whales 1, 2: \b1 /b1.
+In chorus, whales 1, 2:  g1 \b1.
+Whale 2:  b1  g1.
+
+
+Sequence ID: 131
+Whale 1:  g1 -g1 -g1 -g1 -g1 -g1.
+
+
+Sequence ID: 132
+Whale 1:  g1 -g1.
+In chorus, whales 1, 2: -g1 /g1.
+Whale 2:  a1.
+In chorus, whales 1, 2:  g1 \a1.
+Whale 2:  a1 \a1 /a1  b1.
+
+
+Sequence ID: 133
+Whale 2:  g1 -g1.
+
+
+Sequence ID: 134
+Whale 1:  g1  b1  I1  g1 -g1 -g1 -g1.
+
+
+Sequence ID: 135
+Whale 1:  g1.
+Whale 2: /g1.
+In chorus, whales 1, 2: \g1 -g1.
+.
+
+
+Sequence ID: 136
+In chorus, whales 1, 2:  d1  J2.
+In chorus, whales 1, 2: -g1  g1.
+In chorus, whales 1, 2: -g1 -g1.
+In chorus, whales 1, 2: -g1 -g1.
+Whale 2: -g1.
+
+
+Sequence ID: 137
+In chorus, whales 2, 3: \F5  f5.
+Whale 3:  e3.
+In chorus, whales 1, 2, 3:  f3  f5  f4.
+In chorus, whales 1, 2:  f3  b1.
+In chorus, whales 1, 2:  h3 -F3.
+Whale 2:  e3  c4  D2.
+Whale 1:  B1.
+Whale 2:  f5  a3  b1.
+In chorus, whales 1, 2:  f5 \b1.
+Whale 2:  a3  b1 /b1  a3  b1 /B1.
+
+
+Sequence ID: 138
+Whale 2:  g1.
+Whale 1:  a1  b1.
+In chorus, whales 1, 2:  g1 \g1.
+Whale 1: /g1.
+In chorus, whales 1, 2: -g1 \g1.
+Whale 2:  a1.
+In chorus, whales 1, 2:  g1  b1.
+Whale 2:  a1.
+In chorus, whales 1, 2:  g1  f3.
+Whale 1:  g1 -g1.
+
+
+Sequence ID: 139
+Whale 2:  g1 -g1 -g1 -g1 -g1 \g1 -g1  d1  b1  d1  b1.
+
+
+Sequence ID: 140
+Whale 2:  D1  g1 -g1 -G1  D1 -D1 /d1  g1 -G1  d1  g1.
+
+
+Sequence ID: 141
+Whale 1:  i1.
+In chorus, whales 1, 2:  b1  g1.
+Whale 1:  a1.
+In chorus, whales 1, 2: \a1  g1.
+Whale 1:  a1.
+In chorus, whales 1, 2: \a1  g1.
+In chorus, whales 1, 2: -g1 \g1.
+.
+
+
+Sequence ID: 142
+In chorus, whales 1, 2: -g1  g1.
+Whale 2:  g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1 -g1.
+
+
+Sequence ID: 143
+Whale 1:  g1 -g1  a1 \a1.
+Whale 2:  L1  j1  l1  b1  l1  b1.
+
+
+Sequence ID: 144
+Whale 1:  f3 \f3 -f3 -f3 -f3.
+
+
+Sequence ID: 145
+Whale 1:  f3 \F3  c2  b1.
+In chorus, whales 1, 2: \b1  g1.
+Whale 2:  b1.
+In chorus, whales 1, 2:  b1  a1.
+In chorus, whales 1, 2:  a1  g1.
+In chorus, whales 1, 2:  a1  g1.
+Whale 1:  b1.
+Whale 2:  a1  b1  g1.
+
+
+Sequence ID: 146
+Whale 2:  g1.
+
+
+Sequence ID: 147
+In chorus, whales 1, 2:  f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: \f5 \f5.
+Whale 2: \f5.
+
+
+Sequence ID: 148
+Whale 2:  a3  b1.
+In chorus, whales 2, 3: /b1  c5.
+In chorus, whales 2, 3: /B1  c4.
+
+(No vocalizations, 10 seconds)
+
+In chorus, whales 1, 2:  f5 /B1.
+Whale 2:  b1.
+Whale 1:  f5.
+
+
+Sequence ID: 149
+In chorus, whales 1, 2:  g1 -g1.
+Whale 2: -g1.
+In chorus, whales 1, 2:  f3 -g1.
+Whale 1:  a1  B1.
+In chorus, whales 1, 2:  a1  c2.
+Whale 1:  b2  a1  b2  a1  b1.
+In chorus, whales 1, 2:  a1  g1.
+In chorus, whales 1, 2:  b1  g1.
+In chorus, whales 1, 2, 3:  a1 -g1  g1.
+Whale 2: -g1 -g1.
+
+
+Sequence ID: 150
+In chorus, whales 1, 2:  g1 -g1.
+Whale 2:  D1  g1 -g1  D1  g1.
+
+
+Sequence ID: 151
+Whale 2:  i1.
+In chorus, whales 2, 3:  b1  i1.
+Whale 3:  d1.
+Whale 2:  i1  d1  b1  A1.
+Whale 3:  C1.
+In chorus, whales 2, 3:  N1  g1.
+Whale 2:  i1.
+
+
+Sequence ID: 152
+Whale 3:  f5.
+Whale 2: -f5.
+In chorus, whales 1, 2, 3:  l1  f4  b1.
+Whale 1:  i1  d1  B1 \b1 /b1.
+In chorus, whales 1, 2:  a1  f4.
+Whale 1: -b1 -b1 -b1 /b1 /b1  F3.
+In chorus, whales 1, 2:  f4  a2.
+Whale 2:  f3.
+Whale 1: \f3.
+In chorus, whales 1, 2: -F3  i3.
+Whale 1: -f3.
+Whale 2:  I3.
+In chorus, whales 1, 2:  f3  d2.
+In chorus, whales 1, 2: \c2  c2.
+In chorus, whales 1, 2:  f3  D2.
+Whale 1: /f3.
+In chorus, whales 1, 2: \f3  M5.
+Whale 1:  b2  a1  F3.
+Whale 2:  l4  m5.
+Whale 1:  f3.
+In chorus, whales 1, 2: /f3  m5.
+Whale 1:  f3 -f3.
+Whale 2:  c3.
+In chorus, whales 1, 2:  f3  d2.
+Whale 2:  c3.
+In chorus, whales 1, 2:  F3  D2.
+In chorus, whales 1, 2:  f3  I3.
+Whale 1:  i1 -i1  d1 /D1.
+
+
+Sequence ID: 153
+Whale 2:  f5.
+In chorus, whales 2, 3: -f5 \f5.
+Whale 2: -f5 -f5 \f5 -f5 -f5 \f5 -f5 -f5 /f5 -f5.
+In chorus, whales 2, 3: /f5 /f5.
+Whale 3: -f5.
+In chorus, whales 2, 3: \f5 -f5.
+Whale 2: /f5 /f5.
+In chorus, whales 2, 3: -f5 \f5.
+Whale 3: -f5 /f5 /f5 /f5.
+
+(No vocalizations, 10 minutes)
+
+Whale 1:  i1  b1  g1  d1  b1.
+In chorus, whales 1, 2:  a1  f3.
+In chorus, whales 1, 2:  D1  f3.
+Whale 1:  d1  B1.
+
+(No vocalizations, 20 seconds)
+
+In chorus, whales 1, 2:  g1  f3.
+In chorus, whales 1, 2: -f3 /f3.
+Whale 2:  b2  b1.
+Whale 1: /b1.
+In chorus, whales 1, 2:  a1  f3.
+.
+
+
+Sequence ID: 154
+Whale 1:  g1 -g1 -g1 -g1 -g1 -g1 -g1.
+
+
+Sequence ID: 155
+Whale 1:  d5.
+
+
+Sequence ID: 156
+Whale 1:  N1.
+In chorus, whales 1, 2:  L1  p1.
+Whale 2:  L1  j1.
+Whale 1:  r1  d1  c1.
+In chorus, whales 1, 2:  b1  g1.
+Whale 1:  i1.
+In chorus, whales 1, 2:  d1  g1.
+In chorus, whales 1, 2:  P1  d1.
+Whale 2:  i1  g1.
+In chorus, whales 1, 2:  D3 \g1.
+Whale 1:  d3 \d3 \d3 -D3.
+Whale 2:  d1.
+In chorus, whales 1, 2:  D3  f3.
+Whale 1: -D3.
+Whale 2:  D2  g3  f3  b2  B1.
+Whale 3:  i1  g1.
+In chorus, whales 3, 4: -g1  I1.
+Whale 4:  b1  g1 -G1.
+Whale 3:  l1.
+
+
+Sequence ID: 157
+Whale 1:  d5 \d5.
+
+
+Sequence ID: 158
+Whale 1:  d5.
+Whale 2: \d5 \d5.
+In chorus, whales 2, 3: -d5  f5.
+Whale 3:  b3.
+In chorus, whales 2, 3:  D5  b1.
+.
+
+
+Sequence ID: 159
+Whale 2:  f5 \f5 -f5 \f5.
+
+
+Sequence ID: 160
+Whale 1:  c4  f5 -f5 \f5 \F5  B1  C3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  c4  d1.
+In chorus, whales 1, 2:  d5  b1.
+Whale 2:  d1  b1.
+In chorus, whales 1, 2:  f5  d5.
+Whale 1: /f5  d5  f5  D5.
+Whale 2:  i1 \i1 -i1  b1 /b1.
+In chorus, whales 1, 2:  D5 /b1.
+Whale 2:  i1 \i1  j1  d1  B1  i1 -i1  j1.
+In chorus, whales 1, 2:  d5  d1.
+In chorus, whales 1, 2:  D5 /b1.
+Whale 2:  i1 -i1 -i1  b1 /b1 \b1 -b1 -b1 -b1 -b1 -b1 /b1 /B1  i1 -i1 -i1  b1 /b1 /B1  i1 -i1 -i1  b1 /b1 /b1.
+Whale 1:  f5.
+
+
+Sequence ID: 161
+Whale 1:  n1  A1  f1.
+In chorus, whales 1, 2, 3, 4:  g1  I1  g1  l1.
+Whale 2:  b1 /b1.
+In chorus, whales 1, 2:  g1 /b1.
+Whale 2:  l1  b1.
+In chorus, whales 1, 2:  D1  l1.
+Whale 1:  g1.
+
+
+Sequence ID: 162
+In chorus, whales 1, 2:  G5  p3.
+Whale 2:  D1 -d1 -d1  b1.
+In chorus, whales 1, 2:  d4  j1.
+Whale 1:  d4.
+In chorus, whales 1, 2: /d4  f4.
+In chorus, whales 1, 2:  d4 /f4.
+Whale 2: /i1  b1.
+In chorus, whales 1, 2:  D4  o3.
+Whale 2:  d1  i1 /i1  b1.
+In chorus, whales 1, 2:  d4  n2.
+In chorus, whales 1, 2:  f4  D1.
+Whale 1:  f4.
+
+
+Sequence ID: 163
+Whale 2:  D4.
+Whale 1:  i1 /i1.
+In chorus, whales 1, 2:  f3  d3.
+In chorus, whales 1, 2:  f3 \d3.
+In chorus, whales 1, 2: \f3  D3.
+Whale 2:  a2.
+Whale 1:  D3  a1.
+In chorus, whales 1, 2:  g3  d3.
+Whale 3:  d5 \d5  f5 -f5 /f5.
+
+
+Sequence ID: 164
+Whale 1:  d5 -d5 \d5.
+
+
+Sequence ID: 165
+Whale 1:  l1.
+In chorus, whales 1, 2:  g1  I1.
+Whale 2: \i1.
+In chorus, whales 1, 2:  c1  b1.
+Whale 1:  b1  g1.
+Whale 3:  r1  n1.
+
+
+Sequence ID: 166
+Whale 1:  D1  g1 /g1  D1  g1.
+
+
+Sequence ID: 167
+Whale 1:  b2.
+
+
+Sequence ID: 168
+In chorus, whales 1, 2:  f5 \f5.
+Whale 1: /f5.
+In chorus, whales 1, 2: /f5 \f5.
+Whale 2:  e3  f5 /f5 -f5.
+
+
+Sequence ID: 169
+In chorus, whales 1, 2:  F5  e3.
+Whale 1:  f5  c5  b2  C5.
+
+
+Sequence ID: 170
+Whale 2:  f4 \f4 /f4 -f4 -f4.
+
+
+Sequence ID: 171
+Whale 1:  D1  f1 -f1 -F1  c1  b1 \B1  c1.
+
+
+Sequence ID: 172
+Whale 1:  f5 \f5.
+
+
+Sequence ID: 173
+Whale 1:  f5.
+
+
+Sequence ID: 174
+Whale 2:  j1  a1  b1 /b1 \b1 /b1 \b1.
+In chorus, whales 2, 3:  g1 -g1.
+In chorus, whales 2, 3: -g1  a1.
+In chorus, whales 2, 3: -g1 -g1.
+Whale 2: -g1 -g1  i1.
+Whale 3:  L1  d1  A1  d1 /D1  l1 -L1.
+
+
+Sequence ID: 175
+Whale 2:  i1  b1 /b1 \b1  a1.
+In chorus, whales 1, 2:  a1  b1.
+Whale 2: \a1.
+In chorus, whales 1, 2:  a1  b1.
+Whale 3: \a1.
+In chorus, whales 1, 3:  a1  b1.
+Whale 3: \a1  b1  a1  b1  a1  b1  a1  b1  g1.
+
+
+Sequence ID: 176
+Whale 1:  f5 /f5 -f5 -f5 \f5 -f5 /f5.
+
+
+Sequence ID: 177
+Whale 1:  f5 \f5 \f5 /f5 -f5.
+
+
+Sequence ID: 178
+Whale 1:  b1.
+Whale 2:  f4.
+In chorus, whales 1, 2:  b1 /f4.
+Whale 2:  f4.
+In chorus, whales 1, 2:  e3  F5.
+In chorus, whales 1, 2:  e3 /f5.
+Whale 2:  f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 \f5.
+
+
+Sequence ID: 179
+Whale 1:  f5 \f5 \f5 -f5 \f5 \F5.
+
+
+Sequence ID: 180
+Whale 1:  f5 \f5.
+
+
+Sequence ID: 181
+In chorus, whales 1, 2:  d1  f3.
+In chorus, whales 1, 2:  D1  f3.
+In chorus, whales 1, 2:  d1 \F3.
+Whale 3:  f5 /f5 \f5 -f5 \f5 \f5 /f5 \f5.
+Whale 4:  h3 \h3.
+
+(No vocalizations, 15 seconds)
+
+Whale 5:  h3 -h3.
+Whale 6:  f5 /f5.
+
+
+Sequence ID: 182
+Whale 1:  f5 \f5 -f5 /f5 \f5 \f5 \f5 /f5 /f5 \f5 /f5 -f5.
+
+
+Sequence ID: 183
+Whale 1:  i1  b1  a1 \a1 /a1  b1  g1 -g1 -g1 -g1 -g1 -g1  a1  b1  g1  a1  b1 /b1  a1 /a1  b1  a1  b1  g1  b1  I1.
+
+
+Sequence ID: 184
+Whale 2:  b1.
+Whale 1:  f4.
+In chorus, whales 1, 2: -f4  b1.
+Whale 1:  f4  F5.
+In chorus, whales 1, 2:  F5  E3.
+In chorus, whales 1, 2: /f5  e3.
+Whale 2:  b1.
+Whale 1:  f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5.
+
+
+Sequence ID: 185
+Whale 1:  f5 /f5 -f5 -f5 \f5 -f5 /f5.
+
+
+Sequence ID: 186
+Whale 1:  f5 \f5 \f5 -f5 \f5 \F5.
+
+
+Sequence ID: 187
+Whale 1:  f5 \f5.
+
+
+Sequence ID: 188
+Whale 1:  f3.
+In chorus, whales 10, 11:  D1  f3.
+Whale 11:  d1  f3.
+In chorus, whales 10, 11:  D1  f3.
+Whale 3:  f5 /f5 \f5 -f5 \f5 \f5 /f5 \f5.
+Whale 4:  h3 \h3.
+
+(No vocalizations, 15 seconds)
+
+Whale 5:  h3 -h3.
+Whale 6:  f5 /f5.
+
+
+Sequence ID: 189
+Whale 1:  f5 \f5 \f5 /f5 -f5.
+
+
+Sequence ID: 190
+Whale 2:  f5 -f5 -f5 -f5 \f5 \f5 \f5 /f5 /f5 \f5 /f5 -f5.
+
+
+Sequence ID: 191
+Whale 1:  i1  b1  a1 \a1 /a1  b1  g1 -g1 -g1 -g1 -g1 -g1  a1  b1  g1  a1  b1 /b1  a1 /a1  b1  a1  b1  g1  b1  I1.
+
+
+Sequence ID: 192
+Whale 1:  c1  F1  c1  f1.
+
+
+Sequence ID: 193
+Whale 1:  f5 /f5 -f5.
+
+
+Sequence ID: 194
+Whale 1:  f5 \f5 /f5 -f5 /f5 /f5 \f5.
+
+
+Sequence ID: 195
+Whale 1:  a3  b1  a1.
+
+
+Sequence ID: 196
+Whale 2:  c3  d2.
+
+
+Sequence ID: 197
+Whale 2:  f3.
+Whale 1:  i1.
+In chorus, whales 1, 2:  g1  F3.
+Whale 2:  c2.
+In chorus, whales 1, 2:  g1  b1.
+In chorus, whales 1, 2:  d1  b1.
+In chorus, whales 1, 2:  g1  a1.
+Whale 2: \b1  b2.
+In chorus, whales 1, 2:  c1  A1.
+In chorus, whales 1, 2: \b1  b1.
+In chorus, whales 1, 2:  a1  b1.
+Whale 1:  f1.
+
+
+Sequence ID: 198
+Whale 1:  b1  a1  b1  a1.
+Whale 2:  f3.
+
+(No vocalizations, 10 seconds)
+
+Whale 2:  f3  b2  a1.
+In chorus, whales 1, 2:  f1  f3.
+.
+
+
+Sequence ID: 199
+Whale 2:  g1  b1 \b1.
+
+
+Sequence ID: 200
+Whale 2:  f4 /f4 -f4 -f4 /f4 /f4 -f4 /f4 -f4.
+
+
+Sequence ID: 201
+Whale 2:  f4 -f4 -f4 /f4 -f4.
+
+
+Sequence ID: 202
+Whale 2:  f5 /f5 -f5.
+
+
+Sequence ID: 203
+Whale 2:  f5.
+In chorus, whales 2, 3: \F5  e3.
+In chorus, whales 2, 3: \e3 -E3.
+In chorus, whales 2, 3:  e3  f5.
+Whale 2:  F5.
+In chorus, whales 2, 3:  e3 -e3.
+Whale 2: /f5 /f5.
+
+
+Sequence ID: 204
+Whale 2:  f5 -f5 -f5 -f5.
+
+
+Sequence ID: 205
+Whale 2:  f5 -f5 -f5 \F5.
+In chorus, whales 2, 3:  f5  E3.
+Whale 3:  e3.
+In chorus, whales 2, 3: -f5  f5.
+.
+
+
+Sequence ID: 206
+In chorus, whales 2, 3:  b4  c4.
+Whale 2:  b1 -b1.
+In chorus, whales 2, 3: -b1 -B1.
+In chorus, whales 2, 3:  d1  b1.
+Whale 2:  c2  d1.
+In chorus, whales 2, 3:  b1  f5.
+Whale 2:  m5.
+In chorus, whales 2, 3:  b1  F5.
+Whale 3:  f5 \f5.
+
+
+Sequence ID: 207
+In chorus, whales 2, 3:  i1 -i1.
+Whale 3:  b1.
+In chorus, whales 2, 3:  f3 \b1.
+Whale 2:  D1  g1.
+In chorus, whales 2, 3: -g1  f3.
+Whale 2:  f3.
+In chorus, whales 2, 3: -f3  g1.
+Whale 2:  b2  a1  f3.
+
+
+Sequence ID: 208
+Whale 2:  f5 -f5 /f5 \f5 /f5 -f5 \f5 \f5 -f5 \f5.
+
+
+Sequence ID: 209
+Whale 2:  M5.
+In chorus, whales 2, 3:  i3  c3.
+In chorus, whales 2, 3:  b1  d2.
+Whale 2:  m5  b1  H1.
+In chorus, whales 2, 3:  f5  f4.
+Whale 3:  i1 \i1  j1  b1.
+In chorus, whales 2, 3:  f4 /B1.
+Whale 3:  i1 -i1  j1  d1  b1 /b1.
+Whale 2:  f4 \f4.
+Whale 3:  i1 -i1  j1  d1  b1.
+In chorus, whales 2, 3:  f4 /b1.
+Whale 2:  m5.
+
+
+Sequence ID: 210
+Whale 2:  i1  b1  i1  b1  i1  b1  i1  b1  a1  b1  a1.
+
+
+Sequence ID: 211
+In chorus, whales 2, 3:  D1  C2.
+In chorus, whales 2, 3:  G1  f3.
+In chorus, whales 2, 3: \b1  A1.
+In chorus, whales 2, 3:  g1  c2.
+Whale 3:  b1  a1.
+In chorus, whales 2, 3:  g1  D2.
+Whale 2:  G1 -g1 -g1.
+
+
+Sequence ID: 212
+Whale 2:  l1.
+
+
+Sequence ID: 213
+Whale 2:  f5 \F5  e4  f5 /f5 /f5 \f5.
+
+
+Sequence ID: 214
+Whale 1:  m5 \m5.
+In chorus, whales 1, 2:  b1  f5.
+Whale 2:  F4.
+Whale 1:  i3  b1.
+In chorus, whales 1, 2:  f3  f4.
+Whale 1: \f3 -f3.
+Whale 2:  D1 -d1 -d1 -d1.
+In chorus, whales 1, 2:  f3 -d1.
+In chorus, whales 1, 2:  F3 /B1.
+Whale 2:  i1 \i1  j1  b1 /b1.
+
+
+Sequence ID: 215
+Whale 1:  f3 -f3.
+Whale 2:  i1.
+In chorus, whales 1, 2:  f3  b1.
+Whale 1:  b1  a1.
+In chorus, whales 1, 2:  f3  i1.
+In chorus, whales 1, 2: /b1  b1.
+In chorus, whales 1, 2:  B2  j1.
+Whale 2:  g1 -g1 -g1.
+
+
+Sequence ID: 216
+Whale 2:  g1.
+
+
+Sequence ID: 217
+In chorus, whales 2, 3:  f3  g1.
+Whale 2:  b2.
+In chorus, whales 2, 3:  a1  g1.
+Whale 3:  g1.
+
+
+Sequence ID: 218
+Whale 2:  c1  D1  b1 \b1.
+
+

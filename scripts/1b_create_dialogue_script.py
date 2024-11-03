@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 THRESHOLD = 0.3
 
@@ -41,7 +42,7 @@ if __name__ == "__main__":
                     ornamentation,
                     synchrony,
                     row["Duration"],
-                    time_delta,
+                    np.log(0.1 + time_delta),
                 )
                 new_rows.append(new_row)
                 item_position += 1

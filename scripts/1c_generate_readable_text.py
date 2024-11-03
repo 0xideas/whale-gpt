@@ -1,6 +1,8 @@
 # Written by Morgan Rivers!!
-
 import argparse
+import pandas as pd
+import numpy as np
+
 """
 This python script generates a dialogue using the whale dialogue script data.
 It does so by first labeling the whale by its number ("Whale" column) and the words that it says.
@@ -9,10 +11,6 @@ New conversations, defined by having a different "sequenceId", are separated and
 This also includes proper timings: printing the time of the new conversations, as well as reordering the display by
 timestamp and printing when codas are spoken effectively simultaneously.
 """
-
-import pandas as pd
-import numpy as np
-
 
 # Reconstruct 'ConstructedString'
 def return_tempo(dur):
@@ -172,7 +170,7 @@ if __name__ == "__main__":
                 "rhythm_letter": rhythm_letter,
                 "tempo": tempo,
                 "duration": duration,
-                "time_delta": time_delta,
+                "time_delta": np.exp(time_delta) - 0.1,
                 "synchrony": synchrony,
                 "prev_coda_duration": prev_coda_duration,
                 "prev_rhythm_letter": prev_rhythm_letter,
