@@ -1,237 +1,878 @@
 Sequence ID: 0
-In chorus, whales 1, 2:  b1  d1.
-In chorus, whales 1, 2, 3: \f5 /f5 /f5.
-Whale 2: \f5.
+
+Whale 2:  d1
+Whale 1:  b1
+Whale 2:  d3
+Whale 1:  b3
+Whale 2:  f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: /f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 3: /f5
+Whale 2: \f5
+Whale 2: \f5
 
 
 Sequence ID: 1
-Whale 2:  i1.
-In chorus, whales 1, 2:  f4  d3.
-Whale 2: \f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: \f5 /f5.
-Whale 2: -f5 \f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-.
+
+Whale 2:  i1
+Whale 2:  d3
+Whale 1:  f4
+Whale 2:  f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: \f5
+Whale 1: /f5
 
 
 Sequence ID: 8
-Whale 1:  f5 \f5 /f5 /f5 /f5 /f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -F5 \f5 /f5 /f5 -f5 -f5 \f5 -f5.
+
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -F5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: -f5
 
 
 Sequence ID: 9
-In chorus, whales 1, 2:  e3  B2.
-Whale 1:  a3  f3  a3  f3  a3  f3  a3.
-In chorus, whales 1, 2:  f3  a4.
-Whale 1:  f4.
-In chorus, whales 1, 2: \f4  f5.
-Whale 1: \f5.
-In chorus, whales 1, 2: -f5 /f5.
-Whale 1: /f5.
+
+Whale 2:  B2
+Whale 1:  e3
+Whale 1:  a3
+Whale 1:  f3
+Whale 1:  a3
+Whale 1:  f3
+Whale 1:  a3
+Whale 1:  f3
+Whale 1:  a3
+Whale 1:  f3
+Whale 2:  a4
+Whale 1:  f3
+Whale 1:  f4
+Whale 1: \f4
+Whale 2:  f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 1: /f5
 
 
 Sequence ID: 10
-In chorus, whales 1, 2:  f4  d3.
-Whale 1:  f5 \f5 /f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 1: /f5 \f5 -f5 -f5 -f5.
+
+Whale 2:  d3
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 14
-Whale 2:  d5.
-In chorus, whales 1, 2: /f5  f5.
-In chorus, whales 1, 2: /f5 \f5.
-Whale 2: \f5 /f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-In chorus, whales 2, 3: \f5 /f5.
-Whale 2: \f5.
+
+Whale 2:  d5
+Whale 2:  f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 3: /f5
+Whale 2: /f5
+Whale 2: \f5
 
 
 Sequence ID: 18
-Whale 1:  b2.
-In chorus, whales 1, 2:  f3  f5.
-Whale 2: \f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  b2
+Whale 1:  f3
+Whale 2:  f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 21
-In chorus, whales 1, 2:  d4  f4.
-Whale 2: -f5 -f5 -f5 -f5 -f5 \f5 /f5 \f5.
-In chorus, whales 1, 2: \f5 /f5.
-Whale 2: -f5 -f5 /f5 -f5 /f5 -f5.
-In chorus, whales 2, 3: -f5 /f5.
-Whale 2: \f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 /f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5 -f5 -f5.
+
+Whale 1:  d4
+Whale 2:  f4
+Whale 1:  f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: /f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 2: -f5
 
 
 Sequence ID: 22
-Whale 1:  b1  b3.
-In chorus, whales 1, 2:  f4 -f4.
-Whale 2: /f5 -f5 /f5 -f5 -f5 -f5 /f5.
-In chorus, whales 1, 2: /f5 -f5.
-In chorus, whales 1, 2: \f5 /f5.
-.
+
+Whale 1:  b1
+Whale 1:  b3
+Whale 1:  f4
+Whale 2: -f4
+Whale 1:  f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
 
 
 Sequence ID: 25
-Whale 1:  b1  f3  f5 /f5 /f5 /f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-In chorus, whales 1, 2, 3: -f5 /f5 -f5.
-Whale 2: \f5.
+
+Whale 1:  b1
+Whale 1:  f3
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 3: /f5
+Whale 2: \f5
+Whale 2: \f5
 
 
 Sequence ID: 28
-Whale 1:  f4  f5 -f5 -f5 -f5 \f5 -f5  f4  f5 \f5 /f5 \f5 /f5 \f5 /f5 \f5 -f5 /f5 -f5.
-In chorus, whales 1, 2: /f5 -f5.
-.
+
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: -f5
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 2: -f5
 
 
 Sequence ID: 29
-Whale 4:  f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 4:  f5
+Whale 4: /f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
 
 
 Sequence ID: 47
-Whale 4:  b3  f5 \f5 /f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 \f5 -f5.
+
+Whale 4:  b3
+Whale 4:  f5
+Whale 4: \f5
+Whale 4: /f5
+Whale 4: /f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: /f5
+Whale 4: \f5
+Whale 4: -f5
 
 
 Sequence ID: 51
-Whale 2:  d1.
-In chorus, whales 1, 2:  f5  f3.
-In chorus, whales 1, 2: -f5 -f5.
-In chorus, whales 1, 2: \f5 /f5.
-Whale 1: -f5.
-In chorus, whales 1, 3: /f5 /f5.
-.
+
+Whale 2:  d1
+Whale 2:  f3
+Whale 1:  f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 1: -f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: /f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 3: /f5
 
 
 Sequence ID: 52
-Whale 2:  b1.
-In chorus, whales 1, 2:  f5  b2.
-In chorus, whales 1, 2: /f5 -f5.
-Whale 2: /f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-.
+
+Whale 2:  b1
+Whales 1, 2:  f5,  b2
+Whale 2:  f3
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
 
 
 Sequence ID: 66
-In chorus, whales 1, 2, 3:  f5  f2  b1.
-Whale 2: -f5 -f5 /f5.
-In chorus, whales 1, 2: -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-In chorus, whales 1, 2, 3: \f5 /f5 /f5.
-Whale 2: \f5 -f5.
+
+Whale 3:  b1
+Whale 2:  f2
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 3: /f5
+Whale 2: /f5
+Whale 3: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
 
 
 Sequence ID: 80
-Whale 1:  f5 \f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 2: \f5.
+
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 2: \f5
 
 
 Sequence ID: 81
-In chorus, whales 1, 3: /f5  f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 3:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 88
-Whale 1:  f5 \f5 /f5.
-In chorus, whales 1, 2: /f5 /f5.
-Whale 2: -f5 -f5 -f5 -f5.
-In chorus, whales 2, 3: -f5 -f5.
-Whale 2: \f5.
+
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 3: -f5
+Whale 2: /f5
+Whale 2: \f5
 
 
 Sequence ID: 96
-In chorus, whales 1, 2:  f5  f4.
-Whale 2: /f5 -f5 /f5 -f5 -f5 -f5 /f5 -f5 /f5 \f5.
-In chorus, whales 1, 2: -f5 /f5.
-In chorus, whales 1, 2, 3: \f5 /f5 /f5.
-Whale 2: \f5 /f5.
+
+Whale 2:  f4
+Whale 1:  f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 3: /f5
+Whale 2: -f5
+Whale 2: \f5
+Whale 2: /f5
 
 
 Sequence ID: 108
-Whale 2:  f5 /f5 -f5 -f5 /f5 -f5 \f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
 
 
 Sequence ID: 117
-In chorus, whales 1, 2:  f3 /f3.
-Whale 2: /f5.
-In chorus, whales 1, 2: -f5 -f5.
-.
+
+Whale 1:  f3
+Whale 2: /f3
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: \f5
 
 
 Sequence ID: 149
-Whale 2:  g1.
-In chorus, whales 1, 2: /f3  f3.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 1: -f5.
+
+Whale 2:  g1
+Whale 2:  f3
+Whale 1: /f3
+Whale 2:  f5
+Whale 1: /f5
+Whale 2: -f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 1: -f5
 
 
 Sequence ID: 152
-Whale 1:  f4.
-In chorus, whales 1, 2:  f5 \f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 1: /f5 -f5 -f5.
-In chorus, whales 1, 2: /f5 /f5.
-Whale 2: \f5 /f5.
+
+Whale 1:  f4
+Whale 1:  f5
+Whale 2: \f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
 
 
 Sequence ID: 153
-Whale 1:  b2  f5  f4.
-In chorus, whales 1, 2:  f5 /f5.
-Whale 2: \f5 /f5 \f5 /f5.
-In chorus, whales 2, 3: -f5 /f5.
-.
+
+Whale 1:  b2
+Whale 1:  f5
+Whale 1:  f4
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 3: /f5
 
 
 Sequence ID: 156
-Whale 2:  d2.
-In chorus, whales 1, 2:  f4  f5.
-Whale 1:  f5 /f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 \f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 2: -f5 -f5.
+
+Whale 2:  d2
+Whale 2:  f5
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
 
 
 Sequence ID: 160
-Whale 2:  j1.
-In chorus, whales 1, 2:  f4  f3.
-Whale 2: -f5 -f5 -f5 /f5 -f5.
-In chorus, whales 1, 2: \f5 /f5.
-In chorus, whales 1, 2: \f5 /f5.
-In chorus, whales 1, 2: \f5 /f5.
-In chorus, whales 1, 2: \f5 /f5.
-Whale 2: /f5 -f5 /f5.
+
+Whale 2:  j1
+Whale 2:  f3
+Whale 1:  f4
+Whale 2:  f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: -f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: /f5
 
 
 Sequence ID: 162
-Whale 1:  d3.
-In chorus, whales 1, 2:  f5 /f5.
-Whale 2: -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5.
+
+Whale 1:  d3
+Whale 1:  f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: /f5
 
 
 Sequence ID: 209
-Whale 2:  f4  f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 2: /f5 /f5 \f5.
-In chorus, whales 2, 3: -f5 -f5.
-.
+
+Whale 2:  f4
+Whale 2:  f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 2: /f5
+Whale 2: /f5
+Whale 2: \f5
+Whale 2: -f5
+Whale 3: -f5
 
 

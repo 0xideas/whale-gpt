@@ -1,156 +1,1389 @@
 Sequence ID: 0
-Whale 2:  d2.
-Whale 1:  f4  f5 \f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 /f5 \f5.
+
+Whale 2:  d2
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
 
 
 Sequence ID: 1
-Whale 2:  d1.
-In chorus, whales 1, 2:  f5  d3.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  d1
+Whale 2:  d3
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 8
-In chorus, whales 1, 2:  f5  f4.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5.
+
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
 
 
 Sequence ID: 9
-Whale 1:  B1.
-In chorus, whales 1, 2:  e3  f4.
-Whale 1: /f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  B1
+Whale 1:  e3
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 10
-In chorus, whales 1, 2:  f4  g3.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 /f5 \f5 /f5 /f5 \f5 /f5 /f5 \f5 /f5 /f5 \f5 /f5 /f5 \f5 /f5 /f5 -f5 -f5 -f5.
+
+Whale 2:  g3
+Whale 1:  f4
+Whale 2:  f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+Whale 1: \f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 14
-In chorus, whales 1, 2:  f5  d5.
-Whale 1: /f5 /f5 -f5 -f5 -f5 \f5 /f5 -f5 \f5 /f5 -f5 -f5 -f5 -f5 -f5 /f5 /f5 -f5 \f5.
+
+Whale 2:  d5
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
 
 
 Sequence ID: 18
-Whale 1:  i2.
-In chorus, whales 1, 2:  f3  f5.
-Whale 1: /f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 /f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  i2
+Whale 1:  f3
+Whale 2:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: \f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 21
-In chorus, whales 1, 2, 3:  f5  f4  d3.
-Whale 1: /f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 /f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 3:  d3
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 22
-Whale 1:  b1  f4  f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 \f5 -f5.
+
+Whale 1:  b1
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
+Whale 1: -f5
 
 
 Sequence ID: 25
-Whale 1:  b1  f4  f5 /f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 /f5 -f5 -f5.
+
+Whale 1:  b1
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 28
-Whale 1:  F4  e4  f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5.
+
+Whale 1:  F4
+Whale 1:  e4
+Whale 1:  f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 29
-In chorus, whales 1, 4: /f5  f5.
-Whale 4: \f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 \f5 -f5 -f5 \f5 -f5 -f5 -f5.
+
+Whale 4:  f5
+Whale 1: /f5
+Whale 4: /f5
+
+(silence for 5 seconds)
+
+Whale 4: \f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: \f5
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: \f5
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
+
+(silence for 5 seconds)
+
+Whale 4: -f5
 
 
 Sequence ID: 47
-Whale 4:  f3  f5 /f5 -f5 -f5 -f5 -f5.
-In chorus, whales 1, 4: -f5 -f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 4:  f3
+Whale 4:  f5
+Whale 4: /f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 4: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 51
-Whale 2:  b1 /b1.
-In chorus, whales 1, 2:  f5  f4.
-Whale 1: -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5.
+
+Whale 2:  b1
+Whale 2: /b1
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 52
-Whale 2:  b1 /b1.
-In chorus, whales 1, 2:  f5  b3.
-Whale 1: -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  b1
+Whale 2: /b1
+Whale 2:  b3
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 66
-In chorus, whales 1, 2, 3:  f5  f3  b1.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 \f5.
+
+Whale 3:  b1
+Whale 2:  f3
+Whale 1:  f5
+Whale 2: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
 
 
 Sequence ID: 80
-Whale 1:  f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 81
-Whale 3:  f4.
-In chorus, whales 1, 3: -f5  f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 \f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 3:  f4
+
+(silence for 5 seconds)
+
+Whale 3:  f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: \f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 88
-Whale 1:  f5 /f5 /f5 /f5 /f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 \f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 96
-In chorus, whales 1, 2:  f5  f3.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 /f5 -f5 \f5 -f5.
+
+Whale 2:  f3
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: \f5
+Whale 1: -f5
 
 
 Sequence ID: 108
-In chorus, whales 1, 2: /f5  f5.
-Whale 1: -f5 -f5.
-In chorus, whales 1, 2: /f5 /f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 2: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 117
-In chorus, whales 1, 2:  f3  f4.
-Whale 1: -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  f3
+Whale 2:  f4
+Whale 1:  f5
+Whale 2: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 149
-Whale 2:  g1  f3.
-In chorus, whales 1, 2: /f5  f5.
-Whale 1: /f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  g1
+Whale 2:  f3
+
+(silence for 5 seconds)
+
+Whale 2:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 152
-Whale 1:  f4  f5 \f5 /f5 -f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 /f5 -f5.
+
+Whale 1:  f4
+Whale 1:  f5
+Whale 1: \f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
 
 
 Sequence ID: 153
-In chorus, whales 1, 2:  b2  f4.
-Whale 1: /f5 /f5 /f5 -f5 /f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5 /f5 /f5 -f5 /f5 -f5 -f5 -f5 -f5.
+
+Whale 1:  b2
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 156
-In chorus, whales 2, 3:  d1  f4.
-Whale 2: /f5 -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 2: -f5 -f5 -f5.
-In chorus, whales 1, 2: -f5 -f5.
-Whale 1: /f5 -f5 /f5 /f5 -f5 -f5.
+
+Whale 2:  d1
+Whale 3:  f4
+Whale 2:  f5
+Whale 2: /f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 160
-Whale 2:  j1.
-In chorus, whales 1, 2:  f4  d1.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5.
+
+Whale 2:  j1
+Whale 2:  d1
+Whale 1:  f4
+Whale 2:  f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 162
-In chorus, whales 1, 2:  d3  f5.
-Whale 1: -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 -f5 -f5.
+
+Whale 1:  d3
+Whale 2:  f5
+Whale 1: /f5
+Whale 2: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
 
 
 Sequence ID: 209
-In chorus, whales 1, 2:  f5  f4.
-Whale 1: /f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 -f5 /f5 /f5 /f5 -f5 -f5 -f5.
+
+Whale 2:  f4
+Whale 1:  f5
+Whale 1: /f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: -f5
+Whale 1: /f5
+Whale 1: /f5
+Whale 1: /f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+
+(silence for 5 seconds)
+
+Whale 1: -f5
+Whale 1: -f5
 
 

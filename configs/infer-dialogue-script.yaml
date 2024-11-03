@@ -17,10 +17,10 @@ target_column_types: # 'criterion' in training_spec must also be adapted
 
 output_probabilities: false
 map_to_id: true
-device: mps
+device: cuda
 seq_length: 25
 inference_batch_size: 1
 
-autoregression: true
-autoregression_additional_steps: 20
+autoregression: false
+autoregression_additional_steps: 
 sample_from_distribution_columns:

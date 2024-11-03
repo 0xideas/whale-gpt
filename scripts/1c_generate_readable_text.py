@@ -11,7 +11,8 @@ New conversations, defined by having a different "sequenceId", are separated and
 This also includes proper timings: printing the time of the new conversations, as well as reordering the display by
 timestamp and printing when codas are spoken effectively simultaneously.
 """
-
+THRESHOLD = 0.3
+SILENCE_THRESHOLD = 5.0
 # Reconstruct 'ConstructedString'
 def return_tempo(dur):
     if dur < 0.45:
@@ -92,7 +93,7 @@ def print_chorus(chorus_whales_data, f):
 
 
 # Function to print time without vocalizations
-def print_time_no_vocalizations(time_diff, f):
+def format_time_no_vocalizations(time_diff):
     if time_diff < 60:
         # Less than a minute
         rounded = 5 * (time_diff // 5)
@@ -122,8 +123,35 @@ def print_time_no_vocalizations(time_diff, f):
             rounded = 5 * round(units / 5)
         unit_label = "day"
     unit_label += "" if rounded == 1 else "s"
-    f.write(f"\n(No vocalizations, {int(rounded)} {unit_label})\n\n")
+    return(f"{int(rounded)} {unit_label})")
 
+
+def group_annotation(annotation: list[dict]):
+    annotation_groups = [[]]
+    for i, annotat in enumerate(annotation):
+        whale_in_annotation_group = max(([False] + [annotat["whale_number"] == ann_gr["whale_number"] for ann_gr in annotation_groups[-1]]))
+        if i == 0 or annotat["time_delta"] > THRESHOLD or whale_in_annotation_group:
+            annotation_groups.append([annotat])
+        else:
+            annotation_groups[-1].append(annotat)
+    annotation_groups = [sorted(annotation_group, key=lambda x: x["whale_number"]) for annotation_group in annotation_groups]
+    return(annotation_groups[1:])
+
+def get_annotation_group_string(annotation_group):
+    assert len(annotation_group) >= 1, len(annotation_group)
+
+    if annotation_group[0]["time_delta"] > SILENCE_THRESHOLD:
+        time_string = format_time_no_vocalizations(annotation_group[0]["time_delta"])
+        silence_string = f"\n(silence for {time_string}\n\n"
+    else:
+        silence_string = ""
+
+    if len(annotation_group) == 1:
+        return(f"{silence_string}Whale {annotation_group[0]['whale_number']}: {annotation_group[0]['text']}")
+    else:
+        whales_string = "Whales " + ', '.join([str(annotation['whale_number']) for annotation in annotation_group])
+        coda_string = ', '.join([annotation['text'] for annotation in annotation_group])
+        return(f"{silence_string}{whales_string}: {coda_string}")
 
 if __name__ == "__main__":
 
@@ -141,9 +169,8 @@ if __name__ == "__main__":
     prev_sequence_id = -np.inf
     for i, row in data.iterrows():
         sequence_id = row["sequenceId"]
-        time_delta = float(row["TimeDelta"])  # Start time of the coda
+        time_delta = float(row["TimeDelta"]) 
         if prev_sequence_id != sequence_id:
-            # this is a new sequence
             prev_rhythm_letter = None
             is_first_in_sequence = True
             prev_coda_duration = -np.inf
@@ -152,8 +179,7 @@ if __name__ == "__main__":
             is_first_in_sequence = False
 
         whale_number = int(row["Whale"])
-        assert 100 > int(whale_number) > 0
-        coda = int(row["Coda"])  # Assuming this corresponds to 'Rhythm' in old code
+        coda = int(row["Coda"]) 
         ornamentation = int(row["Ornamentation"])
         synchrony = int(row["Synchrony"])
         duration = float(row["Duration"])
@@ -211,125 +237,17 @@ if __name__ == "__main__":
     # Open the output file
     with open(f"{path.replace('.csv', '-readable.txt')}", "w") as f:
         # Print the dialogues
-        for annotation_id, annotation in annotations.items():
-            # Initialize variables
-            previous_whale_name = ""  # empty as there is no previous, it's the start of a conversation
-            what_last_whale_said = ""
-            what_last_whale_said_array = []
+        for sequence_id, annotation in annotations.items():
+
+            annotation_groups = group_annotation(annotation)
 
             # Write filename right above the start of the conversation to the file
-            f.write(f"Sequence ID: {annotation_id}\n")
+            f.write(f"Sequence ID: {sequence_id}\n\n")
 
-            # Before starting the dialogue loop
-            chorus_whales_data = {}
-            previously_in_chorus = False
-            previous_whale_utterance = ""
+            for annotation_group in annotation_groups:
+                annotation_group_string = get_annotation_group_string(annotation_group)
+                f.write(f"{annotation_group_string}\n")
 
-            # Inside the dialogue loop
-            for i in range(len(annotation)):
-                line = annotation[i]
+            f.write("\n\n")
 
-                # Check time difference and manage chorus
-                time_diff = line["time_delta"]
 
-                # uncomment below to print the line as well for debugging
-                # f.write("\n" + str(line) + f" tdiff: {time_diff}\n")
-                if (
-                    line["synchrony"]
-                    and previous_whale_name
-                    and previous_whale_name != line["whale_number"]
-                ):
-                    # if not on the first one
-                    if not previously_in_chorus:
-                        # we don't need to repeat this one, it will be in the chorus, so go up to the penultamate entry
-                        if len(what_last_whale_said_array) > 1:
-                            # If there was any previous stored thing to say, print it.
-                            # Also remove the most previous as it's part of the chorus
-                            f.write(
-                                f"Whale {previous_whale_name}: "
-                                + " ".join(what_last_whale_said_array[:-1])
-                                + ".\n"
-                            )
-
-                    # Add current whale to chorus if not already in it
-                    if previous_whale_name not in chorus_whales_data.keys():
-                        chorus_whales_data[previous_whale_name] = (
-                            previous_whale_utterance
-                        )
-                    if (
-                        line["whale_number"] not in chorus_whales_data.keys()
-                        and line["whale_number"] != ""
-                    ):
-                        chorus_whales_data[line["whale_number"]] = line["text"]
-
-                    what_last_whale_said = ""
-                    what_last_whale_said_array = []
-                    previously_in_chorus = True
-
-                else:
-                    # Output chorus if it exists and reset
-                    if (
-                        previously_in_chorus
-                    ):  # if was chorus last time, and not this time.
-                        print_chorus(chorus_whales_data, f)
-                        chorus_whales_data = {}
-                        what_last_whale_said = (
-                            f"Whale {line['whale_number']}: {line['text']}"
-                        )
-                        what_last_whale_said_array.append(line["text"])
-
-                    else:
-                        # Continue with the regular logic
-                        if line["whale_number"] == previous_whale_name:
-                            # We know the tdiff was large last time, but that might have been a time that chorus was printed.
-                            # we should have loaded the word when first not in chorus into what_last_whale_said_array
-                            # we do want to print if the last whale was in chorus before.
-                            what_last_whale_said += " " + line["text"]
-                            what_last_whale_said_array.append(line["text"])
-                        else:  # not in a chorus, not previously in a chorus, and the whale is different.
-                            if (
-                                previous_whale_name and what_last_whale_said != ""
-                            ):  # and, last whale said something, and not first entry
-                                f.write(what_last_whale_said + ".\n")
-
-                            what_last_whale_said = (
-                                f"Whale {line['whale_number']}: {line['text']}"
-                            )
-                            what_last_whale_said_array = [line["text"]]
-                    previously_in_chorus = False
-
-                # we want to split up vocalizations that are a long time apart in text dialogue.
-                if (
-                    time_diff > max_diff
-                    and not np.isnan(time_diff)
-                    and not time_diff == np.inf
-                ):
-                    # this cannot be a chorus, as time_diff is high. So it would have printed.
-                    # Also print past vocalizations of the same whale (which otherwise would be skipped) because its a long pause.
-                    # we don't want to print this entry though, it needs to be printed after the pause (tdiff is prev - current time)
-                    if len(what_last_whale_said_array) > 1:
-                        f.write(
-                            f"Whale {previous_whale_name}: "
-                            + " ".join(what_last_whale_said_array[:-1])
-                            + ".\n"
-                        )
-                        what_last_whale_said = (
-                            f"Whale {line['whale_number']}: {line['text']}"
-                        )
-                        what_last_whale_said_array = [line["text"]]
-
-                    print_time_no_vocalizations(time_diff, f)
-                    time_diff = 0
-
-                previous_whale_name = line["whale_number"]
-                previous_whale_utterance = line["text"]
-
-            # After the loop, check if there's an unprocessed chorus
-            if len(chorus_whales_data.keys()) > 0:
-                print_chorus(chorus_whales_data, f)
-
-            # Remember to write the last whale's sayings in each dialogue to the file
-            f.write(what_last_whale_said + ".\n\n")
-
-            # an extra newline before filenames to indicate significant separation
-            f.write("\n")
