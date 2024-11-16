@@ -21,6 +21,6 @@ device: cuda
 seq_length: 25
 inference_batch_size: 1
 
-autoregression: false
-autoregression_additional_steps: 
-sample_from_distribution_columns:
+autoregression: true
+autoregression_additional_steps: 50
+sample_from_distribution_columns:  ["Whale", "Coda", "Ornamentation", "Synchrony"]
